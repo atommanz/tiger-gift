@@ -4,7 +4,7 @@
       "id": "P001",
       "title": "Designer Collection - Pink mug with oval handle - 313 ml",
       "description": "This pink mug with an oval handle adds a touch of elegance to your daily coffee or tea moments. Made of ceramics and measuring 8.3 x 8.0 cm, it holds up to 313 ml, the perfect size for your favourite ",
-      "price_eur": 4,
+      "price_eur": 4.0,
       "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/07ae22e13bcb3a9e402117d78bf5df02.jpg?v=1770786304",
       "product_type": "Kitchen",
@@ -33,8 +33,7 @@
         ],
         "style": [
           "S01",
-          "S02",
-          "S07"
+          "S02"
         ]
       }
     },
@@ -42,8 +41,8 @@
       "id": "P002",
       "title": "Designer Collection - Mug with oval handle - 313 ml",
       "description": "This mug with an oval handle combines a modern design with everyday practicality. Made of ceramics and measuring 8.3 x 8.0 cm, it holds up to 313 ml, making it ideal for your morning coffee, tea, or h",
-      "price_eur": 4,
-      "price_thb": 180,
+      "price_eur": 4.0,
+      "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0794a13469ba52970b46932c06d78947.jpg?v=1771956293",
       "product_type": "Kitchen",
       "handle": "designer-collection-mug-with-oval-handle-313-ml-3069898",
@@ -73,8 +72,7 @@
         ],
         "style": [
           "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -82,8 +80,8 @@
       "id": "P003",
       "title": "Vase. Small",
       "description": "Add a delicate touch to your decor with this small purple glass vase. Measuring 5.8 x 12.6 cm, this charming flower holder is perfect for displaying small blooms and enhancing any table setting as a d",
-      "price_eur": 2,
-      "price_thb": 250,
+      "price_eur": 2.0,
+      "price_thb": 76,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-home-default-title-vase-small-46995493683548.jpg?v=1767710363",
       "product_type": "Home",
       "handle": "vase-small-3056308",
@@ -110,8 +108,7 @@
           "B01"
         ],
         "style": [
-          "S02",
-          "S05"
+          "S02"
         ]
       }
     },
@@ -119,8 +116,8 @@
       "id": "P004",
       "title": "Soap dispenser",
       "description": "Elevate your bathroom with this elegant soap dispenser, crafted from pink glass with a chic metal pump. Measuring 7.7 x 18.8 cm, this dispenser is a stylish and practical bathroom accessory. Perfect f",
-      "price_eur": 3,
-      "price_thb": 320,
+      "price_eur": 3.0,
+      "price_thb": 114,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-home-default-title-soap-dispenser-46995443810652.jpg?v=1767710346",
       "product_type": "Home",
       "handle": "soap-dispenser-3056068",
@@ -141,12 +138,11 @@
           "O03"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
           "S02",
-          "S04",
-          "S07"
+          "S04"
         ]
       }
     },
@@ -154,8 +150,8 @@
       "id": "P005",
       "title": "Picnic blanket with tropical print and carrying strap - 170x90 cm",
       "description": "Spending time outdoors feels more comfortable with a picnic blanket with tropical print and carrying strap designed for relaxed moments in the park, garden, or by the beach. Made of polyester, this qu",
-      "price_eur": 5,
-      "price_thb": 450,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0c5e4475114e580a51ca5bc3b8810d14.jpg?v=1774354272",
       "product_type": "Home",
       "handle": "picnic-blanket-withtropical-print-and-carrying-strap-170x90-cm-3072206",
@@ -180,12 +176,11 @@
           "O03"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
           "S03",
-          "S04",
-          "S07"
+          "S04"
         ]
       }
     },
@@ -193,7 +188,7 @@
       "id": "P006",
       "title": "2-in-1 blue water blaster with soap bubbles",
       "description": "Make outdoor play a little more lively with this 2 in 1 blue water blaster with soap bubbles, designed to mix splashing fun with a stream of bubbles. Made of plastic and finished in a bright multi-col",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/62f5bdcc44a0b314442ee2b95fc1fbee.jpg?v=1774354032",
       "product_type": "Toy",
@@ -219,8 +214,7 @@
           "B01"
         ],
         "style": [
-          "S03",
-          "S09"
+          "S03"
         ]
       }
     },
@@ -228,7 +222,7 @@
       "id": "P007",
       "title": "Handheld fan with strap - Green",
       "description": "This handheld fan with a strap in green is a modern and convenient gadget designed to keep you cool wherever you go. Made of plastic and measuring 4.0 x 15.5 x 8.0 cm, it features a powerful yet quiet",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/6e97b8a01e6c9e084855e989edcc6d8f.jpg?v=1773771272",
       "product_type": "Gadget",
@@ -256,8 +250,7 @@
           "B01"
         ],
         "style": [
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -265,8 +258,8 @@
       "id": "P008",
       "title": "Large blue packing cube - 30x40 cm",
       "description": "Simplify your packing routine with this large blue packing cube, designed to keep your clothes neatly organised and easy to find. Made from lightweight polyester and measuring 6.5 x 40.0 x 30.0 cm, it",
-      "price_eur": 5,
-      "price_thb": 280,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/929cd5c117b30413c05ce2210be47493.jpg?v=1773771377",
       "product_type": "Leisure",
       "handle": "large-blue-packing-cube-30x40-cm-3070991",
@@ -295,8 +288,7 @@
         ],
         "style": [
           "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -304,7 +296,7 @@
       "id": "P009",
       "title": "Water spraying octopus with changing lights",
       "description": "Add a playful splash to bath time or water play with this water spraying octopus with changing lights, designed to bring movement and colour into everyday routines. Made of plastic and finished in a s",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f13fb39faefae99873f6340d77028e8a.jpg?v=1774354073",
       "product_type": "Gadget",
@@ -330,8 +322,7 @@
         ],
         "style": [
           "S01",
-          "S03",
-          "S09"
+          "S03"
         ]
       }
     },
@@ -339,7 +330,7 @@
       "id": "P010",
       "title": "Ice cube tray with lid - Crushed ice",
       "description": "Keeping ice ready for drinks is simple with this ice cube tray with a lid in a square cube design, made for everyday use at home. Made of elastomer and suitable for food use, it features 15 evenly siz",
-      "price_eur": 4,
+      "price_eur": 4.0,
       "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/1eadf7eba030a366f631b1b8f2260c59.jpg?v=1774354021",
       "product_type": "Kitchen",
@@ -367,9 +358,7 @@
           "B01"
         ],
         "style": [
-          "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -377,8 +366,8 @@
       "id": "P011",
       "title": "Designer Collection - Glass teapot - 21 cm",
       "description": "This glass teapot is a beautiful way to serve and enjoy your favourite teas. Made of metal and glass and measuring 14.3 x 14.5 x 21.3 cm, it features a multi-coloured design with a clear body that let",
-      "price_eur": 5,
-      "price_thb": 550,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/ef335490fac73a58d9836b27c5cbbb99.jpg?v=1771944780",
       "product_type": "Kitchen",
       "handle": "designer-collection-glass-teapot-21-cm-3069885",
@@ -403,12 +392,11 @@
           "O05"
         ],
         "budget": [
-          "B03"
+          "B01"
         ],
         "style": [
           "S02",
-          "S04",
-          "S05"
+          "S04"
         ]
       }
     },
@@ -416,7 +404,7 @@
       "id": "P012",
       "title": "2-in-1 green water blaster with soap bubbles",
       "description": "Bring together splashing fun and floating bubbles with this 2-in-1 green water blaster with soap bubbles, a playful addition to outdoor water play. Made of plastic and finished in a multi-coloured des",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/8b76ed7bae0b38ecad66d6f64881119d.jpg?v=1774354001",
       "product_type": "Toy",
@@ -443,8 +431,7 @@
           "B01"
         ],
         "style": [
-          "S03",
-          "S09"
+          "S03"
         ]
       }
     },
@@ -452,7 +439,7 @@
       "id": "P013",
       "title": "Press-on nails - Watermelon design",
       "description": "These press on nails with watermelon designs are a fun and easy way to update your look with a playful, summery touch. Made from plastic, they feature a multi coloured finish with bright watermelon gr",
-      "price_eur": 4,
+      "price_eur": 4.0,
       "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/feaae3f95a0bffdd2c54c40e4cdb3d82.jpg?v=1774354013",
       "product_type": "Personal care",
@@ -487,7 +474,7 @@
       "id": "P014",
       "title": "Ice cube tray with lid - Square cube design",
       "description": "Keeping crushed ice ready at home becomes much easier with this ice cube tray designed for smaller, easy to use pieces. Made of elastomer and suitable for food use, it allows you to create crushed ice",
-      "price_eur": 4,
+      "price_eur": 4.0,
       "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/00e4385d84317ddf8931d2760cad2c2d.jpg?v=1774354272",
       "product_type": "Kitchen",
@@ -515,9 +502,7 @@
           "B01"
         ],
         "style": [
-          "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -553,8 +538,7 @@
         ],
         "style": [
           "S01",
-          "S03",
-          "S09"
+          "S03"
         ]
       }
     },
@@ -562,8 +546,8 @@
       "id": "P016",
       "title": "Handheld fan with key ring - Gummy bear",
       "description": "This handheld fan with abkey ring in a gummy bear design is a fun and portable gadget that keeps you cool wherever you go. Made of plastic and measuring 8.7 x 5.3 x 10.2 cm, it features a shiny, multi",
-      "price_eur": 5,
-      "price_thb": 380,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f22ea9ee31636b5e7281e19ca78bdecb.jpg?v=1773771402",
       "product_type": "Gadget",
       "handle": "handheld-fan-with-key-ring-gummy-bear-3070969",
@@ -585,7 +569,7 @@
           "O05"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
           "S01",
@@ -597,7 +581,7 @@
       "id": "P017",
       "title": "Press on nails - Rainbow rhinestones",
       "description": "Bring instant colour and sparkle to your look with these press on nails featuring rainbow rhinestones, perfect for parties, nights out or celebrations. Made of plastic, the set includes 24 pieces that",
-      "price_eur": 4,
+      "price_eur": 4.0,
       "price_thb": 152,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/bfe6373360f538ef254b3827793898a6.jpg?v=1773771454",
       "product_type": "Personal care",
@@ -632,8 +616,8 @@
       "id": "P018",
       "title": "Candle shaped as jam jar - Raspberry jam fragrance",
       "description": "A decorative candle can bring both fragrance and character to a room, and this candle is designed to look like a classic jar of homemade jam. The glass holder features a bright red finish with a match",
-      "price_eur": 5,
-      "price_thb": 420,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Candle-shaped-as-jam-jar-Raspberry-jam-fragrance.webp?v=1777540195",
       "product_type": "Home",
       "handle": "candle-shaped-as-jam-jar-raspberry-jam-fragrance-3071537",
@@ -658,12 +642,11 @@
           "O05"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
           "S01",
-          "S05",
-          "S07"
+          "S02"
         ]
       }
     },
@@ -671,8 +654,8 @@
       "id": "P019",
       "title": "Ceramic jug with embossed guavas - 1.2 L",
       "description": "Serving drinks at the table feels more inviting with a decorative jug that brings colour and personality to everyday moments. This ceramic jug features a multi coloured design with guava details and v",
-      "price_eur": 5,
-      "price_thb": 650,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/21cdd07745abd6cbd3bc3d96fa4a0e6f.jpg?v=1774354087",
       "product_type": "Kitchen",
       "handle": "ceramic-jug-with-embossed-guavas-12-l-3071962",
@@ -696,12 +679,11 @@
           "O04"
         ],
         "budget": [
-          "B03"
+          "B01"
         ],
         "style": [
           "S03",
-          "S04",
-          "S05"
+          "S04"
         ]
       }
     },
@@ -709,7 +691,7 @@
       "id": "P020",
       "title": "Catch the ball game for water play",
       "description": "Add a splash of fun to outdoor activities with this catch the ball game for water play, designed for easy throwing and catching in the pool or garden. Made of plastic and finished in a bright multi-co",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/b2719ac2b7c9ec38c943f91d4b0a7947.jpg?v=1777542472",
       "product_type": "Game",
@@ -746,8 +728,8 @@
       "id": "P021",
       "title": "Tablecloth with tropical print - 140x220 cm",
       "description": "A colourful tablecloth can instantly transform the atmosphere of everyday meals and gatherings. This tablecloth with tropical print is made from cotton and features a lively multi coloured design fill",
-      "price_eur": 5,
-      "price_thb": 520,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/8d00457e83a724bf9ee5256cf3c71058.jpg?v=1774354094",
       "product_type": "Home",
       "handle": "tablecloth-with-tropical-print-140x220-cm-3071895",
@@ -768,12 +750,11 @@
           "O03"
         ],
         "budget": [
-          "B03"
+          "B01"
         ],
         "style": [
           "S03",
-          "S04",
-          "S07"
+          "S04"
         ]
       }
     },
@@ -781,8 +762,8 @@
       "id": "P022",
       "title": "Wooden play fruits",
       "description": "These wooden play fruits offer a simple and playful way to explore imaginative kitchen and market scenes during everyday play. The set includes colourful fruit pieces designed for pretend cooking, ser",
-      "price_eur": 5,
-      "price_thb": 380,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0b28f0f2df933a6bb610d4a060ba4029.jpg?v=1773771375",
       "product_type": "Toy",
       "handle": "wooden-play-fruits-3071132",
@@ -804,12 +785,11 @@
           "O04"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
-          "S04",
-          "S05",
-          "S08"
+          "S01",
+          "S04"
         ]
       }
     },
@@ -818,7 +798,7 @@
       "title": "Ceramic bird tealight holder with striped base",
       "description": "A small detail like this ceramic bird tealight holder with striped base can bring a soft, warm glow into your space. Made of ceramics, it features a colourful bird design perched on a striped base, cr",
       "price_eur": 4.5,
-      "price_thb": 320,
+      "price_thb": 171,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Ceramic-bird-tealight-holder-with-striped-base.webp?v=1777540195",
       "product_type": "Home",
       "handle": "ceramic-bird-tealight-holder-with-striped-base-3072186",
@@ -842,12 +822,11 @@
           "O05"
         ],
         "budget": [
-          "B02"
+          "B01"
         ],
         "style": [
           "S01",
-          "S05",
-          "S07"
+          "S02"
         ]
       }
     },
@@ -855,7 +834,7 @@
       "id": "P024",
       "title": "Bath buddy - Cat mermaid",
       "description": "This bath buddy as a cat mermaid is a cuddly friend that makes bath time imaginative and fun. Made of polyester with a soft towelling material, it measures 6 x 13 x 9 cm and features a sweet multi-col",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/4880551db87aa95f45fe8ea86cd89efc.jpg?v=1773771162",
       "product_type": "Toy",
@@ -879,8 +858,7 @@
           "B01"
         ],
         "style": [
-          "S01",
-          "S09"
+          "S01"
         ]
       }
     },
@@ -888,7 +866,7 @@
       "id": "P025",
       "title": "Handheld fan with 3 settings - Yellow",
       "description": "This handheld fan with 3 settings in yellow is a compact and efficient gadget perfect for staying cool anywhere. Made of plastic and measuring 15 x 6 x 3 cm, it features three adjustable speed setting",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f387b0ed7185fe93a1ec4d4c340a5370.jpg?v=1773771555",
       "product_type": "Gadget",
@@ -916,9 +894,7 @@
           "B01"
         ],
         "style": [
-          "S03",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -926,7 +902,7 @@
       "id": "P026",
       "title": "Handheld fan with strap - Purple and pink",
       "description": "This handheld fan with a strap in purple and pink is a stylish and practical gadget for keeping cool on the go. Made of plastic and measuring 4.0 x 15.5 x 7.5 cm, it features a compact yet powerful de",
-      "price_eur": 5,
+      "price_eur": 5.0,
       "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/b4f33a4e55bab1f94fa51f933b94f855.jpg?v=1775821224",
       "product_type": "Gadget",
@@ -953,8 +929,7 @@
         ],
         "style": [
           "S01",
-          "S04",
-          "S07"
+          "S04"
         ]
       }
     },
@@ -963,7 +938,7 @@
       "title": "Mini game - Car racing",
       "description": "This mini game of car racing brings a lively tabletop challenge where players guide the tiny cars along the track using both hands. The aim is to move the controls carefully to steer the cars through ",
       "price_eur": 4.5,
-      "price_thb": 280,
+      "price_thb": 171,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/e010edd264bf3fe8e2ac95b101e753b5.jpg?v=1773771594",
       "product_type": "Game",
       "handle": "mini-game-car-racing-3071315",
@@ -988,9 +963,7 @@
           "B01"
         ],
         "style": [
-          "S03",
-          "S05",
-          "S08"
+          "S03"
         ]
       }
     },
@@ -998,8 +971,8 @@
       "id": "P028",
       "title": "Handheld fan with strap - Beige and silver",
       "description": "This handheld fan with a strap in beige and silver is a sleek and modern gadget designed for effortless cooling. Made of plastic and measuring 9.1 x 6.2 x 5.6 cm, it features a stylish two-tone design",
-      "price_eur": 5,
-      "price_thb": 1200,
+      "price_eur": 5.0,
+      "price_thb": 190,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/c1d2f325c548d8b34097799196ba1acf.jpg?v=1774441522",
       "product_type": "Gadget",
       "handle": "handheld-fan-with-strap-beige-and-silver-3072001",
@@ -1022,12 +995,11 @@
           "O05"
         ],
         "budget": [
-          "B04"
+          "B01"
         ],
         "style": [
           "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -1035,7 +1007,7 @@
       "id": "P029",
       "title": "Designer Collection - Wood tasting spoon - 30 cm",
       "description": "This wood tasting spoon from the designer collection is a must-have for any home cook who enjoys both style and practicality in the kitchen. Made of wood and measuring 8.0 x 1 x 30.2 cm, it is ideal f",
-      "price_eur": 3,
+      "price_eur": 3.0,
       "price_thb": 114,
       "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/9dd90430-79f3-4602-8622-4b342d65d880.webp?v=1776163154",
       "product_type": "Kitchen",
@@ -1064,8 +1036,7 @@
         ],
         "style": [
           "S02",
-          "S05",
-          "S08"
+          "S04"
         ]
       }
     },
@@ -1102,10 +1073,10 @@
         ],
         "style": [
           "S03",
-          "S04",
-          "S08"
+          "S04"
         ]
       }
     }
   ]
 }
+

@@ -90,6 +90,7 @@ export function scoreProduct(product: Product, formData: FormData): number {
   let score = 0
   const { gender, age, relationship, occasion, budget, style } = formData
 
+<<<<<<< HEAD
   // ให้คะแนนต่างกันตามความสำคัญของแต่ละ criteria
   // Single selection: แต่ละ array มีแค่ 1 ค่า
 
@@ -127,6 +128,26 @@ export function scoreProduct(product: Product, formData: FormData): number {
       }
     }
   }
+=======
+  // +1 คะแนนสำหรับแต่ละ tag ที่ตรง
+  if (gender && product.tags.gender.includes(gender)) score++
+  if (age && product.tags.age.includes(age)) score++
+  if (relationship && product.tags.relationship.includes(relationship)) score++
+  if (occasion && product.tags.occasion.includes(occasion)) score++
+
+  // เช็ค budget จากราคาจริง ไม่ใช่ tags
+  if (budget) {
+    const budgetRange = getBudgetRange(budget)
+    if (budgetRange) {
+      const matchBudget = product.price_thb >= budgetRange.min && product.price_thb <= budgetRange.max
+      if (matchBudget) score++
+    } else if (product.tags.budget.includes(budget)) {
+      score++
+    }
+  }
+
+  if (style && product.tags.style.includes(style)) score++
+>>>>>>> fe3eaaab1a1ad4472063fa0874dfcebfb973881b
 
   return score
 }
