@@ -53,8 +53,8 @@ export default function Home() {
   }
 
   const handleLoadingComplete = () => {
-    setView('feed')
-    // TODO: Filter products based on formData
+    // Navigate to feed page using Next.js router
+    window.location.href = '/feed'
   }
 
   return (
@@ -78,11 +78,6 @@ export default function Home() {
         <LoadingView key="loading" onComplete={handleLoadingComplete} />
       )}
 
-      {view === 'feed' && (
-        <div key="feed" className="min-h-screen bg-[#FFF9F0] flex items-center justify-center">
-          <p className="text-xl">Product Feed - Coming soon...</p>
-        </div>
-      )}
     </AnimatePresence>
   )
 }
