@@ -73,7 +73,7 @@ export default function CelebrationPage() {
               damping: 15,
               delay: 0.2
             }}
-            className="mb-4"
+            className="mb-3"
           >
             <motion.div
               animate={{
@@ -85,15 +85,13 @@ export default function CelebrationPage() {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="relative w-32 h-32"
+              className="relative w-48 h-48"
             >
               <Image
                 src="/tiger-gift.png"
-                alt="Tiger Gift"
-                width={128}
-                height={128}
+                alt="Flying Tiger Copenhagen"
+                fill
                 className="object-contain"
-                style={{ width: 'auto', height: 'auto' }}
                 priority
               />
             </motion.div>
@@ -120,9 +118,9 @@ export default function CelebrationPage() {
                 transition={{ duration: 0.5, delay: 0.6 }}
                 className="inline-block"
               >
-                ส่งซื้อ
+                สั่งซื้อ
               </motion.span>
-              <br/>
+              <br />
               <motion.span
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 0.5, delay: 0.7 }}
@@ -228,16 +226,6 @@ export default function CelebrationPage() {
                   {calculateTotal().toLocaleString()} ฿
                 </motion.span>
               </div>
-            </motion.div>
-
-            {/* Order Number */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
-              className="text-center text-xs text-gray-600"
-            >
-              หมายเลขคำสั่งซื้อ: <span className="font-mono font-bold">{orderNumber}</span>
             </motion.div>
           </motion.div>
 

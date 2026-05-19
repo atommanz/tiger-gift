@@ -101,14 +101,14 @@ export default function FeedPage() {
           return (
             <div
               key={product.id}
-              className="h-screen w-full snap-start flex flex-col relative overflow-hidden"
+              className="h-screen w-full snap-start flex flex-col overflow-hidden"
             >
-              {/* Background Image - With bottom padding to prevent card overlap */}
+              {/* Image Section - Takes remaining space */}
               <motion.div
                 initial={{ scale: 1.2, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.6 }}
-                className="absolute top-0 left-0 right-0 bottom-[200px] z-0"
+                className="flex-1 relative overflow-hidden"
               >
                 <img
                   src={product.image}
@@ -118,16 +118,14 @@ export default function FeedPage() {
                     e.currentTarget.parentElement!.style.backgroundColor = '#EAB308'
                   }}
                 />
-                {/* Gradient Overlay - Lighter for better image visibility */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-transparent" />
               </motion.div>
 
-              {/* Bottom card - Compact and lower position */}
+              {/* Product Info Card - Fixed height at bottom */}
               <motion.div
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
-                className="absolute bottom-0 left-0 right-0 z-10 bg-white/95 backdrop-blur-sm rounded-t-3xl shadow-2xl px-5 pt-4 pb-6"
+                className="bg-white rounded-t-3xl shadow-2xl px-5 pt-4 pb-6 flex-shrink-0"
               >
                 <motion.h3
                   initial={{ x: -20, opacity: 0 }}
