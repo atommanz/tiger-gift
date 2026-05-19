@@ -12,7 +12,9 @@
       "url": "https://flyingtiger.com/products/designer-collection-pink-mug-with-oval-handle-313-ml-3069897",
       "tags": {
         "gender": [
-          "G02"
+          "G02",
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
@@ -21,12 +23,15 @@
         "relationship": [
           "R02",
           "R03",
-          "R05"
+          "R05",
+          "R04",
+          "R01"
         ],
         "occasion": [
           "O01",
           "O03",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
@@ -34,6 +39,7 @@
         "style": [
           "S01",
           "S02",
+          "S04",
           "S07"
         ]
       }
@@ -61,20 +67,21 @@
         "relationship": [
           "R02",
           "R04",
-          "R05"
+          "R05",
+          "R03"
         ],
         "occasion": [
           "O01",
           "O03",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
         ],
         "style": [
           "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -91,7 +98,8 @@
       "tags": {
         "gender": [
           "G02",
-          "G03"
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
@@ -100,18 +108,22 @@
         "relationship": [
           "R02",
           "R03",
-          "R04"
+          "R04",
+          "R05"
         ],
         "occasion": [
           "O03",
-          "O05"
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B01"
         ],
         "style": [
           "S02",
-          "S05"
+          "S05",
+          "S04"
         ]
       }
     },
@@ -127,7 +139,9 @@
       "url": "https://flyingtiger.com/products/soap-dispenser-3056068",
       "tags": {
         "gender": [
-          "G02"
+          "G02",
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
@@ -135,18 +149,22 @@
         ],
         "relationship": [
           "R02",
-          "R03"
+          "R03",
+          "R04",
+          "R05"
         ],
         "occasion": [
-          "O03"
+          "O03",
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B02"
         ],
         "style": [
           "S02",
-          "S04",
-          "S07"
+          "S04"
         ]
       }
     },
@@ -168,16 +186,21 @@
         ],
         "age": [
           "A02",
-          "A03"
+          "A03",
+          "A04"
         ],
         "relationship": [
           "R01",
           "R02",
-          "R03"
+          "R03",
+          "R04",
+          "R05"
         ],
         "occasion": [
           "O01",
-          "O03"
+          "O03",
+          "O05",
+          "O04"
         ],
         "budget": [
           "B02"
@@ -185,7 +208,8 @@
         "style": [
           "S03",
           "S04",
-          "S07"
+          "S07",
+          "S02"
         ]
       }
     },
@@ -209,7 +233,8 @@
         ],
         "relationship": [
           "R02",
-          "R03"
+          "R03",
+          "R01"
         ],
         "occasion": [
           "O01",
@@ -250,7 +275,8 @@
         ],
         "occasion": [
           "O01",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
@@ -288,15 +314,15 @@
         ],
         "occasion": [
           "O04",
-          "O05"
+          "O05",
+          "O01"
         ],
         "budget": [
           "B01"
         ],
         "style": [
           "S02",
-          "S04",
-          "S06"
+          "S04"
         ]
       }
     },
@@ -317,13 +343,18 @@
           "G03"
         ],
         "age": [
-          "A01"
+          "A01",
+          "A02"
         ],
         "relationship": [
-          "R03"
+          "R03",
+          "R01",
+          "R02"
         ],
         "occasion": [
-          "O01"
+          "O01",
+          "O05",
+          "O02"
         ],
         "budget": [
           "B01"
@@ -331,7 +362,8 @@
         "style": [
           "S01",
           "S03",
-          "S09"
+          "S06",
+          "S04"
         ]
       }
     },
@@ -357,19 +389,22 @@
         ],
         "relationship": [
           "R02",
-          "R05"
+          "R05",
+          "R03",
+          "R04"
         ],
         "occasion": [
           "O03",
-          "O05"
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B01"
         ],
         "style": [
-          "S02",
           "S04",
-          "S06"
+          "S02"
         ]
       }
     },
@@ -395,20 +430,22 @@
         ],
         "relationship": [
           "R03",
-          "R04"
+          "R04",
+          "R02",
+          "R05"
         ],
         "occasion": [
           "O03",
           "O04",
-          "O05"
+          "O05",
+          "O01"
         ],
         "budget": [
           "B03"
         ],
         "style": [
           "S02",
-          "S04",
-          "S05"
+          "S04"
         ]
       }
     },
@@ -433,7 +470,8 @@
         ],
         "relationship": [
           "R02",
-          "R03"
+          "R03",
+          "R01"
         ],
         "occasion": [
           "O01",
@@ -472,7 +510,9 @@
         ],
         "occasion": [
           "O01",
-          "O02"
+          "O02",
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
@@ -505,19 +545,22 @@
         ],
         "relationship": [
           "R02",
-          "R05"
+          "R05",
+          "R03",
+          "R04"
         ],
         "occasion": [
           "O03",
-          "O05"
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B01"
         ],
         "style": [
-          "S02",
           "S04",
-          "S06"
+          "S02"
         ]
       }
     },
@@ -542,7 +585,9 @@
           "A02"
         ],
         "relationship": [
-          "R02"
+          "R02",
+          "R03",
+          "R01"
         ],
         "occasion": [
           "O01",
@@ -553,8 +598,7 @@
         ],
         "style": [
           "S01",
-          "S03",
-          "S09"
+          "S03"
         ]
       }
     },
@@ -578,18 +622,22 @@
           "A03"
         ],
         "relationship": [
-          "R02"
+          "R02",
+          "R01"
         ],
         "occasion": [
           "O01",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B02"
         ],
         "style": [
           "S01",
-          "S03"
+          "S03",
+          "S06",
+          "S04"
         ]
       }
     },
@@ -617,7 +665,9 @@
         ],
         "occasion": [
           "O01",
-          "O02"
+          "O02",
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
@@ -641,7 +691,8 @@
       "tags": {
         "gender": [
           "G02",
-          "G03"
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
@@ -650,20 +701,25 @@
         "relationship": [
           "R01",
           "R02",
-          "R03"
+          "R03",
+          "R04",
+          "R05"
         ],
         "occasion": [
           "O01",
           "O03",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B02"
         ],
         "style": [
           "S01",
+          "S02",
           "S05",
-          "S07"
+          "S07",
+          "S04"
         ]
       }
     },
@@ -689,11 +745,15 @@
         ],
         "relationship": [
           "R03",
-          "R04"
+          "R04",
+          "R02",
+          "R05"
         ],
         "occasion": [
           "O03",
-          "O04"
+          "O04",
+          "O05",
+          "O01"
         ],
         "budget": [
           "B03"
@@ -701,7 +761,7 @@
         "style": [
           "S03",
           "S04",
-          "S05"
+          "S02"
         ]
       }
     },
@@ -727,7 +787,8 @@
         ],
         "relationship": [
           "R02",
-          "R03"
+          "R03",
+          "R01"
         ],
         "occasion": [
           "O01",
@@ -738,7 +799,8 @@
         ],
         "style": [
           "S03",
-          "S04"
+          "S04",
+          "S09"
         ]
       }
     },
@@ -755,17 +817,24 @@
       "tags": {
         "gender": [
           "G02",
-          "G03"
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
           "A04"
         ],
         "relationship": [
-          "R03"
+          "R03",
+          "R02",
+          "R04",
+          "R05"
         ],
         "occasion": [
-          "O03"
+          "O03",
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B03"
@@ -773,7 +842,7 @@
         "style": [
           "S03",
           "S04",
-          "S07"
+          "S02"
         ]
       }
     },
@@ -797,18 +866,22 @@
           "A01"
         ],
         "relationship": [
-          "R03"
+          "R03",
+          "R02",
+          "R01"
         ],
         "occasion": [
           "O01",
-          "O04"
+          "O04",
+          "O02"
         ],
         "budget": [
           "B02"
         ],
         "style": [
+          "S01",
           "S04",
-          "S05",
+          "S03",
           "S08"
         ]
       }
@@ -826,7 +899,8 @@
       "tags": {
         "gender": [
           "G02",
-          "G03"
+          "G03",
+          "G01"
         ],
         "age": [
           "A03",
@@ -835,19 +909,25 @@
         "relationship": [
           "R01",
           "R03",
-          "R04"
+          "R04",
+          "R02",
+          "R05"
         ],
         "occasion": [
           "O03",
-          "O05"
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B02"
         ],
         "style": [
           "S01",
+          "S02",
           "S05",
-          "S07"
+          "S07",
+          "S04"
         ]
       }
     },
@@ -870,16 +950,20 @@
           "A01"
         ],
         "relationship": [
-          "R03"
+          "R03",
+          "R02",
+          "R01"
         ],
         "occasion": [
-          "O01"
+          "O01",
+          "O02"
         ],
         "budget": [
           "B01"
         ],
         "style": [
           "S01",
+          "S03",
           "S09"
         ]
       }
@@ -910,13 +994,13 @@
         ],
         "occasion": [
           "O01",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
         ],
         "style": [
-          "S03",
           "S04",
           "S06"
         ]
@@ -934,7 +1018,8 @@
       "url": "https://flyingtiger.com/products/handheld-fan-with-strap-purple-and-pink-3071851",
       "tags": {
         "gender": [
-          "G02"
+          "G02",
+          "G03"
         ],
         "age": [
           "A02",
@@ -942,11 +1027,13 @@
         ],
         "relationship": [
           "R02",
-          "R05"
+          "R05",
+          "R01"
         ],
         "occasion": [
           "O01",
-          "O05"
+          "O05",
+          "O04"
         ],
         "budget": [
           "B01"
@@ -954,7 +1041,7 @@
         "style": [
           "S01",
           "S04",
-          "S07"
+          "S06"
         ]
       }
     },
@@ -978,7 +1065,9 @@
           "A02"
         ],
         "relationship": [
-          "R02"
+          "R02",
+          "R03",
+          "R01"
         ],
         "occasion": [
           "O01",
@@ -988,9 +1077,7 @@
           "B01"
         ],
         "style": [
-          "S03",
-          "S05",
-          "S08"
+          "S03"
         ]
       }
     },
@@ -1012,14 +1099,18 @@
         ],
         "age": [
           "A03",
-          "A04"
+          "A04",
+          "A02"
         ],
         "relationship": [
           "R04",
-          "R05"
+          "R05",
+          "R02"
         ],
         "occasion": [
-          "O05"
+          "O05",
+          "O01",
+          "O04"
         ],
         "budget": [
           "B04"
@@ -1053,19 +1144,22 @@
         ],
         "relationship": [
           "R03",
-          "R05"
+          "R05",
+          "R02",
+          "R04"
         ],
         "occasion": [
           "O03",
-          "O05"
+          "O05",
+          "O04",
+          "O01"
         ],
         "budget": [
           "B01"
         ],
         "style": [
           "S02",
-          "S05",
-          "S08"
+          "S04"
         ]
       }
     },
@@ -1080,31 +1174,297 @@
       "handle": "ballpoint-pens-with-hand-signs-4-pcs-3070679",
       "url": "https://flyingtiger.com/products/ballpoint-pens-with-hand-signs-4-pcs-3070679",
       "tags": {
-        "gender": [
-          "G01",
-          "G02",
-          "G03"
-        ],
-        "age": [
-          "A02",
-          "A03"
-        ],
-        "relationship": [
-          "R02",
-          "R05"
-        ],
-        "occasion": [
-          "O01",
-          "O05"
-        ],
-        "budget": [
-          "B01"
-        ],
-        "style": [
-          "S03",
-          "S04",
-          "S08"
-        ]
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A02", "A03", "A04"],
+        "relationship": ["R02", "R05", "R03", "R04"],
+        "occasion": ["O01", "O05", "O04"],
+        "budget": ["B01"],
+        "style": ["S03", "S04"]
+      }
+    },
+    {
+      "id": "P031",
+      "title": "Decorative LED lamp - Cloud shape",
+      "description": "Soft ambient lighting with cloud-shaped LED design, perfect for bedroom or living room decoration",
+      "price_eur": 10,
+      "price_thb": 380,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/cloud-lamp.jpg",
+      "product_type": "Home",
+      "handle": "decorative-led-lamp-cloud-shape",
+      "url": "https://flyingtiger.com/products/decorative-led-lamp-cloud-shape",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A02", "A03", "A04"],
+        "relationship": ["R01", "R02", "R05"],
+        "occasion": ["O01", "O03", "O05"],
+        "budget": ["B02"],
+        "style": ["S01", "S02", "S04"]
+      }
+    },
+    {
+      "id": "P032",
+      "title": "Premium leather notebook - A5",
+      "description": "Elegant A5 leather-bound notebook with 200 pages, ideal for journaling or professional notes",
+      "price_eur": 12,
+      "price_thb": 460,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/leather-notebook.jpg",
+      "product_type": "Office",
+      "handle": "premium-leather-notebook-a5",
+      "url": "https://flyingtiger.com/products/premium-leather-notebook-a5",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R04", "R05", "R02"],
+        "occasion": ["O04", "O05", "O01"],
+        "budget": ["B02"],
+        "style": ["S02", "S04", "S05"]
+      }
+    },
+    {
+      "id": "P033",
+      "title": "Ceramic dinner plate set - 4 pieces",
+      "description": "Modern ceramic dinner plate set with elegant design, dishwasher safe",
+      "price_eur": 15,
+      "price_thb": 570,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/dinner-plates.jpg",
+      "product_type": "Kitchen",
+      "handle": "ceramic-dinner-plate-set-4-pieces",
+      "url": "https://flyingtiger.com/products/ceramic-dinner-plate-set-4-pieces",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B03"],
+        "style": ["S02", "S04"]
+      }
+    },
+    {
+      "id": "P034",
+      "title": "Stainless steel coffee maker - French press",
+      "description": "Premium French press coffee maker, 800ml capacity, heat-resistant glass",
+      "price_eur": 18,
+      "price_thb": 680,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/french-press.jpg",
+      "product_type": "Kitchen",
+      "handle": "stainless-steel-coffee-maker-french-press",
+      "url": "https://flyingtiger.com/products/stainless-steel-coffee-maker-french-press",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R04", "R05", "R02"],
+        "occasion": ["O01", "O04", "O05"],
+        "budget": ["B03"],
+        "style": ["S02", "S04", "S06"]
+      }
+    },
+    {
+      "id": "P035",
+      "title": "Wooden serving board - Acacia wood",
+      "description": "Handcrafted acacia wood serving board, perfect for cheese and charcuterie",
+      "price_eur": 20,
+      "price_thb": 760,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/serving-board.jpg",
+      "product_type": "Kitchen",
+      "handle": "wooden-serving-board-acacia-wood",
+      "url": "https://flyingtiger.com/products/wooden-serving-board-acacia-wood",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B03"],
+        "style": ["S02", "S04", "S05"]
+      }
+    },
+    {
+      "id": "P036",
+      "title": "Designer wall clock - Minimalist",
+      "description": "Modern minimalist wall clock with silent movement, 30cm diameter",
+      "price_eur": 22,
+      "price_thb": 840,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/wall-clock.jpg",
+      "product_type": "Home",
+      "handle": "designer-wall-clock-minimalist",
+      "url": "https://flyingtiger.com/products/designer-wall-clock-minimalist",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B03"],
+        "style": ["S02", "S04"]
+      }
+    },
+    {
+      "id": "P037",
+      "title": "Copper cocktail shaker set",
+      "description": "Professional copper cocktail shaker set with strainer and jigger",
+      "price_eur": 25,
+      "price_thb": 950,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/cocktail-shaker.jpg",
+      "product_type": "Kitchen",
+      "handle": "copper-cocktail-shaker-set",
+      "url": "https://flyingtiger.com/products/copper-cocktail-shaker-set",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R01", "R04", "R05"],
+        "occasion": ["O01", "O04", "O05"],
+        "budget": ["B03"],
+        "style": ["S04", "S05", "S06"]
+      }
+    },
+    {
+      "id": "P038",
+      "title": "Bluetooth speaker - Portable waterproof",
+      "description": "Compact waterproof Bluetooth speaker with 10-hour battery life",
+      "price_eur": 28,
+      "price_thb": 1060,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/bluetooth-speaker.jpg",
+      "product_type": "Gadget",
+      "handle": "bluetooth-speaker-portable-waterproof",
+      "url": "https://flyingtiger.com/products/bluetooth-speaker-portable-waterproof",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A02", "A03", "A04"],
+        "relationship": ["R01", "R02", "R05"],
+        "occasion": ["O01", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S03", "S04", "S06"]
+      }
+    },
+    {
+      "id": "P039",
+      "title": "Ceramic vase collection - Set of 3",
+      "description": "Modern ceramic vase trio in gradient colors, various heights",
+      "price_eur": 30,
+      "price_thb": 1140,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/vase-collection.jpg",
+      "product_type": "Home",
+      "handle": "ceramic-vase-collection-set-of-3",
+      "url": "https://flyingtiger.com/products/ceramic-vase-collection-set-of-3",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S02", "S04", "S05"]
+      }
+    },
+    {
+      "id": "P040",
+      "title": "Premium aromatherapy diffuser",
+      "description": "Ultrasonic aromatherapy diffuser with LED color changing lights",
+      "price_eur": 32,
+      "price_thb": 1220,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/diffuser.jpg",
+      "product_type": "Home",
+      "handle": "premium-aromatherapy-diffuser",
+      "url": "https://flyingtiger.com/products/premium-aromatherapy-diffuser",
+      "tags": {
+        "gender": ["G02", "G03", "G01"],
+        "age": ["A03", "A04"],
+        "relationship": ["R01", "R04", "R05"],
+        "occasion": ["O01", "O03", "O05"],
+        "budget": ["B04"],
+        "style": ["S01", "S02", "S04"]
+      }
+    },
+    {
+      "id": "P041",
+      "title": "Designer photo frame set - Gold finish",
+      "description": "Elegant gold-finished photo frame set, includes 5 frames in various sizes",
+      "price_eur": 35,
+      "price_thb": 1330,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/photo-frames.jpg",
+      "product_type": "Home",
+      "handle": "designer-photo-frame-set-gold-finish",
+      "url": "https://flyingtiger.com/products/designer-photo-frame-set-gold-finish",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S04", "S05", "S07"]
+      }
+    },
+    {
+      "id": "P042",
+      "title": "Smart LED desk lamp",
+      "description": "Touch control LED desk lamp with USB charging port and adjustable brightness",
+      "price_eur": 38,
+      "price_thb": 1440,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/desk-lamp.jpg",
+      "product_type": "Office",
+      "handle": "smart-led-desk-lamp",
+      "url": "https://flyingtiger.com/products/smart-led-desk-lamp",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A02", "A03", "A04"],
+        "relationship": ["R02", "R04", "R05"],
+        "occasion": ["O04", "O05", "O01"],
+        "budget": ["B04"],
+        "style": ["S02", "S04", "S06"]
+      }
+    },
+    {
+      "id": "P043",
+      "title": "Handwoven storage basket set",
+      "description": "Natural seagrass storage basket set of 3, eco-friendly and stylish",
+      "price_eur": 40,
+      "price_thb": 1520,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/storage-baskets.jpg",
+      "product_type": "Home",
+      "handle": "handwoven-storage-basket-set",
+      "url": "https://flyingtiger.com/products/handwoven-storage-basket-set",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S02", "S04", "S05"]
+      }
+    },
+    {
+      "id": "P044",
+      "title": "Vintage record player - Retro design",
+      "description": "Bluetooth-enabled vintage-style record player with built-in speakers",
+      "price_eur": 45,
+      "price_thb": 1710,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/record-player.jpg",
+      "product_type": "Gadget",
+      "handle": "vintage-record-player-retro-design",
+      "url": "https://flyingtiger.com/products/vintage-record-player-retro-design",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R01", "R04", "R05"],
+        "occasion": ["O01", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S05", "S06", "S07"]
+      }
+    },
+    {
+      "id": "P045",
+      "title": "Premium chef knife set - Japanese steel",
+      "description": "Professional Japanese steel chef knife set with wooden block",
+      "price_eur": 50,
+      "price_thb": 1900,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/knife-set.jpg",
+      "product_type": "Kitchen",
+      "handle": "premium-chef-knife-set-japanese-steel",
+      "url": "https://flyingtiger.com/products/premium-chef-knife-set-japanese-steel",
+      "tags": {
+        "gender": ["G01", "G02", "G03"],
+        "age": ["A03", "A04"],
+        "relationship": ["R03", "R04", "R05"],
+        "occasion": ["O03", "O04", "O05"],
+        "budget": ["B04"],
+        "style": ["S02", "S04", "S06"]
       }
     }
   ]
