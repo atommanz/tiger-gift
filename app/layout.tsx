@@ -1,21 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Sans_Thai } from "next/font/google";
 import "./globals.css";
-import { CartProvider } from "./context/CartContext";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
+const ibmPlexSansThai = IBM_Plex_Sans_Thai({
+    weight: ['100', '200', '300', '400', '500', '600', '700'],
+    subsets: ["thai", "latin"],
+    variable: "--font-ibm-plex-sans-thai",
 });
 
 export const metadata: Metadata = {
-    title: "FTC Gift Finder",
-    description: "Find the perfect gift from Flying Tiger Copenhagen",
+    title: "Tiger Gift - FTC Gift Finder",
+    description: "ค้นหาของขวัญที่ใช่จาก Flying Tiger Copenhagen",
 };
 
 export default function RootLayout({
@@ -26,13 +21,9 @@ export default function RootLayout({
     return (
         <html
             lang="th"
-            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+            className={`${ibmPlexSansThai.variable} h-full antialiased`}
         >
-            <body>
-                <CartProvider>
-                    {children}
-                </CartProvider>
-            </body>
+            <body className={ibmPlexSansThai.className}>{children}</body>
         </html>
     );
 }
