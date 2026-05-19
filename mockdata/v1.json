@@ -12,8 +12,7 @@
       "url": "https://flyingtiger.com/products/designer-collection-pink-mug-with-oval-handle-313-ml-3069897",
       "tags": {
         "gender": [
-          "G02",
-          "G03"
+          "G02"
         ],
         "age": [
           "A03",
@@ -60,6 +59,7 @@
         ],
         "relationship": [
           "R02",
+          "R04",
           "R05"
         ],
         "occasion": [
@@ -124,16 +124,15 @@
       "url": "https://flyingtiger.com/products/soap-dispenser-3056068",
       "tags": {
         "gender": [
-          "G01",
-          "G02",
-          "G03"
+          "G02"
         ],
         "age": [
           "A03",
           "A04"
         ],
         "relationship": [
-          "R05"
+          "R02",
+          "R03"
         ],
         "occasion": [
           "O03"
@@ -164,8 +163,8 @@
           "G03"
         ],
         "age": [
-          "A03",
-          "A04"
+          "A02",
+          "A03"
         ],
         "relationship": [
           "R01",
@@ -198,12 +197,10 @@
       "tags": {
         "gender": [
           "G01",
-          "G02",
           "G03"
         ],
         "age": [
-          "A01",
-          "A02"
+          "A01"
         ],
         "relationship": [
           "R02",
@@ -233,6 +230,7 @@
       "url": "https://flyingtiger.com/products/handheld-fan-with-strap-green-3071010",
       "tags": {
         "gender": [
+          "G01",
           "G02",
           "G03"
         ],
@@ -314,7 +312,6 @@
           "A01"
         ],
         "relationship": [
-          "R02",
           "R03"
         ],
         "occasion": [
@@ -420,8 +417,7 @@
           "G03"
         ],
         "age": [
-          "A01",
-          "A02"
+          "A01"
         ],
         "relationship": [
           "R02",
@@ -506,7 +502,6 @@
           "B01"
         ],
         "style": [
-          "S02",
           "S04"
         ]
       }
@@ -783,7 +778,6 @@
           "A01"
         ],
         "relationship": [
-          "R02",
           "R03"
         ],
         "occasion": [
@@ -820,7 +814,8 @@
         ],
         "relationship": [
           "R01",
-          "R03"
+          "R03",
+          "R04"
         ],
         "occasion": [
           "O03",
@@ -854,7 +849,6 @@
           "A01"
         ],
         "relationship": [
-          "R02",
           "R03"
         ],
         "occasion": [
@@ -864,8 +858,7 @@
           "B01"
         ],
         "style": [
-          "S01",
-          "S03"
+          "S01"
         ]
       }
     },
@@ -1081,6 +1074,1818 @@
         "style": [
           "S03",
           "S04"
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "products": [
+    {
+      "id": "P001",
+      "title": "Designer Collection - Pink mug with oval handle - 313 ml",
+      "description": "This pink mug with an oval handle adds a touch of elegance to your daily coffee or tea moments. Made of ceramics and measuring 8.3 x 8.0 cm, it holds up to 313 ml, the perfect size for your favourite ",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/07ae22e13bcb3a9e402117d78bf5df02.jpg?v=1770786304",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-pink-mug-with-oval-handle-313-ml-3069897",
+      "url": "https://flyingtiger.com/products/designer-collection-pink-mug-with-oval-handle-313-ml-3069897",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P002",
+      "title": "Designer Collection - Mug with oval handle - 313 ml",
+      "description": "This mug with an oval handle combines a modern design with everyday practicality. Made of ceramics and measuring 8.3 x 8.0 cm, it holds up to 313 ml, making it ideal for your morning coffee, tea, or h",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0794a13469ba52970b46932c06d78947.jpg?v=1771956293",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-mug-with-oval-handle-313-ml-3069898",
+      "url": "https://flyingtiger.com/products/designer-collection-mug-with-oval-handle-313-ml-3069898",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R04",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P003",
+      "title": "Vase. Small",
+      "description": "Add a delicate touch to your decor with this small purple glass vase. Measuring 5.8 x 12.6 cm, this charming flower holder is perfect for displaying small blooms and enhancing any table setting as a d",
+      "price_eur": 2.0,
+      "price_thb": 76,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-home-default-title-vase-small-46995493683548.jpg?v=1767710363",
+      "product_type": "Home",
+      "handle": "vase-small-3056308",
+      "url": "https://flyingtiger.com/products/vase-small-3056308",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P004",
+      "title": "Soap dispenser",
+      "description": "Elevate your bathroom with this elegant soap dispenser, crafted from pink glass with a chic metal pump. Measuring 7.7 x 18.8 cm, this dispenser is a stylish and practical bathroom accessory. Perfect f",
+      "price_eur": 3.0,
+      "price_thb": 114,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-home-default-title-soap-dispenser-46995443810652.jpg?v=1767710346",
+      "product_type": "Home",
+      "handle": "soap-dispenser-3056068",
+      "url": "https://flyingtiger.com/products/soap-dispenser-3056068",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O03"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P005",
+      "title": "Picnic blanket with tropical print and carrying strap - 170x90 cm",
+      "description": "Spending time outdoors feels more comfortable with a picnic blanket with tropical print and carrying strap designed for relaxed moments in the park, garden, or by the beach. Made of polyester, this qu",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0c5e4475114e580a51ca5bc3b8810d14.jpg?v=1774354272",
+      "product_type": "Home",
+      "handle": "picnic-blanket-withtropical-print-and-carrying-strap-170x90-cm-3072206",
+      "url": "https://flyingtiger.com/products/picnic-blanket-withtropical-print-and-carrying-strap-170x90-cm-3072206",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O03"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P006",
+      "title": "2-in-1 blue water blaster with soap bubbles",
+      "description": "Make outdoor play a little more lively with this 2 in 1 blue water blaster with soap bubbles, designed to mix splashing fun with a stream of bubbles. Made of plastic and finished in a bright multi-col",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/62f5bdcc44a0b314442ee2b95fc1fbee.jpg?v=1774354032",
+      "product_type": "Toy",
+      "handle": "2-in-1-green-water-blaster-with-soap-bubbles-3070936",
+      "url": "https://flyingtiger.com/products/2-in-1-green-water-blaster-with-soap-bubbles-3070936",
+      "tags": {
+        "gender": [
+          "G01",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P007",
+      "title": "Handheld fan with strap - Green",
+      "description": "This handheld fan with a strap in green is a modern and convenient gadget designed to keep you cool wherever you go. Made of plastic and measuring 4.0 x 15.5 x 8.0 cm, it features a powerful yet quiet",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/6e97b8a01e6c9e084855e989edcc6d8f.jpg?v=1773771272",
+      "product_type": "Gadget",
+      "handle": "handheld-fan-with-strap-green-3071010",
+      "url": "https://flyingtiger.com/products/handheld-fan-with-strap-green-3071010",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P008",
+      "title": "Large blue packing cube - 30x40 cm",
+      "description": "Simplify your packing routine with this large blue packing cube, designed to keep your clothes neatly organised and easy to find. Made from lightweight polyester and measuring 6.5 x 40.0 x 30.0 cm, it",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/929cd5c117b30413c05ce2210be47493.jpg?v=1773771377",
+      "product_type": "Leisure",
+      "handle": "large-blue-packing-cube-30x40-cm-3070991",
+      "url": "https://flyingtiger.com/products/large-blue-packing-cube-30x40-cm-3070991",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R04",
+          "R05"
+        ],
+        "occasion": [
+          "O04",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P009",
+      "title": "Water spraying octopus with changing lights",
+      "description": "Add a playful splash to bath time or water play with this water spraying octopus with changing lights, designed to bring movement and colour into everyday routines. Made of plastic and finished in a s",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f13fb39faefae99873f6340d77028e8a.jpg?v=1774354073",
+      "product_type": "Gadget",
+      "handle": "water-spraying-octopus-with-changing-lights-3070827",
+      "url": "https://flyingtiger.com/products/water-spraying-octopus-with-changing-lights-3070827",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R03"
+        ],
+        "occasion": [
+          "O01"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P010",
+      "title": "Ice cube tray with lid - Crushed ice",
+      "description": "Keeping ice ready for drinks is simple with this ice cube tray with a lid in a square cube design, made for everyday use at home. Made of elastomer and suitable for food use, it features 15 evenly siz",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/1eadf7eba030a366f631b1b8f2260c59.jpg?v=1774354021",
+      "product_type": "Kitchen",
+      "handle": "ice-cube-tray-with-lid-square-cube-design-3072246",
+      "url": "https://flyingtiger.com/products/ice-cube-tray-with-lid-square-cube-design-3072246",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P011",
+      "title": "Designer Collection - Glass teapot - 21 cm",
+      "description": "This glass teapot is a beautiful way to serve and enjoy your favourite teas. Made of metal and glass and measuring 14.3 x 14.5 x 21.3 cm, it features a multi-coloured design with a clear body that let",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/ef335490fac73a58d9836b27c5cbbb99.jpg?v=1771944780",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-glass-teapot-21-cm-3069885",
+      "url": "https://flyingtiger.com/products/designer-collection-glass-teapot-21-cm-3069885",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O04",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P012",
+      "title": "2-in-1 green water blaster with soap bubbles",
+      "description": "Bring together splashing fun and floating bubbles with this 2-in-1 green water blaster with soap bubbles, a playful addition to outdoor water play. Made of plastic and finished in a multi-coloured des",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/8b76ed7bae0b38ecad66d6f64881119d.jpg?v=1774354001",
+      "product_type": "Toy",
+      "handle": "2-in-1-blue-water-blaster-with-soap-bubbles-3072461",
+      "url": "https://flyingtiger.com/products/2-in-1-blue-water-blaster-with-soap-bubbles-3072461",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P013",
+      "title": "Press-on nails - Watermelon design",
+      "description": "These press on nails with watermelon designs are a fun and easy way to update your look with a playful, summery touch. Made from plastic, they feature a multi coloured finish with bright watermelon gr",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/feaae3f95a0bffdd2c54c40e4cdb3d82.jpg?v=1774354013",
+      "product_type": "Personal care",
+      "handle": "press-on-nails-watermelon-design-3071047",
+      "url": "https://flyingtiger.com/products/press-on-nails-watermelon-design-3071047",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P014",
+      "title": "Ice cube tray with lid - Square cube design",
+      "description": "Keeping crushed ice ready at home becomes much easier with this ice cube tray designed for smaller, easy to use pieces. Made of elastomer and suitable for food use, it allows you to create crushed ice",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/00e4385d84317ddf8931d2760cad2c2d.jpg?v=1774354272",
+      "product_type": "Kitchen",
+      "handle": "ice-cube-tray-crushed-ice-3072245",
+      "url": "https://flyingtiger.com/products/ice-cube-tray-crushed-ice-3072245",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P015",
+      "title": "Collectable surprise - Nautical key rings",
+      "description": "This collectable surprise as nautical key rings brings a splash of seaside fun to your everyday accessories. Made of elastomer and designed in a cheerful multi-coloured style, each piece measures arou",
+      "price_eur": 2.5,
+      "price_thb": 95,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/ddbc966da7d991c0075f532222ab4de4.jpg?v=1773771262",
+      "product_type": "Toy",
+      "handle": "collectable-surprise-nautical-key-rings-3071277",
+      "url": "https://flyingtiger.com/products/collectable-surprise-nautical-key-rings-3071277",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02"
+        ],
+        "relationship": [
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P016",
+      "title": "Handheld fan with key ring - Gummy bear",
+      "description": "This handheld fan with abkey ring in a gummy bear design is a fun and portable gadget that keeps you cool wherever you go. Made of plastic and measuring 8.7 x 5.3 x 10.2 cm, it features a shiny, multi",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f22ea9ee31636b5e7281e19ca78bdecb.jpg?v=1773771402",
+      "product_type": "Gadget",
+      "handle": "handheld-fan-with-key-ring-gummy-bear-3070969",
+      "url": "https://flyingtiger.com/products/handheld-fan-with-key-ring-gummy-bear-3070969",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P017",
+      "title": "Press on nails - Rainbow rhinestones",
+      "description": "Bring instant colour and sparkle to your look with these press on nails featuring rainbow rhinestones, perfect for parties, nights out or celebrations. Made of plastic, the set includes 24 pieces that",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/bfe6373360f538ef254b3827793898a6.jpg?v=1773771454",
+      "product_type": "Personal care",
+      "handle": "press-on-nails-rainbow-rhinestones-3070893",
+      "url": "https://flyingtiger.com/products/press-on-nails-rainbow-rhinestones-3070893",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P018",
+      "title": "Candle shaped as jam jar - Raspberry jam fragrance",
+      "description": "A decorative candle can bring both fragrance and character to a room, and this candle is designed to look like a classic jar of homemade jam. The glass holder features a bright red finish with a match",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Candle-shaped-as-jam-jar-Raspberry-jam-fragrance.webp?v=1777540195",
+      "product_type": "Home",
+      "handle": "candle-shaped-as-jam-jar-raspberry-jam-fragrance-3071537",
+      "url": "https://flyingtiger.com/products/candle-shaped-as-jam-jar-raspberry-jam-fragrance-3071537",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P019",
+      "title": "Ceramic jug with embossed guavas - 1.2 L",
+      "description": "Serving drinks at the table feels more inviting with a decorative jug that brings colour and personality to everyday moments. This ceramic jug features a multi coloured design with guava details and v",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/21cdd07745abd6cbd3bc3d96fa4a0e6f.jpg?v=1774354087",
+      "product_type": "Kitchen",
+      "handle": "ceramic-jug-with-embossed-guavas-12-l-3071962",
+      "url": "https://flyingtiger.com/products/ceramic-jug-with-embossed-guavas-12-l-3071962",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P020",
+      "title": "Catch the ball game for water play",
+      "description": "Add a splash of fun to outdoor activities with this catch the ball game for water play, designed for easy throwing and catching in the pool or garden. Made of plastic and finished in a bright multi-co",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/b2719ac2b7c9ec38c943f91d4b0a7947.jpg?v=1777542472",
+      "product_type": "Game",
+      "handle": "catch-the-ball-game-for-water-play-3071836",
+      "url": "https://flyingtiger.com/products/catch-the-ball-game-for-water-play-3071836",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P021",
+      "title": "Tablecloth with tropical print - 140x220 cm",
+      "description": "A colourful tablecloth can instantly transform the atmosphere of everyday meals and gatherings. This tablecloth with tropical print is made from cotton and features a lively multi coloured design fill",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/8d00457e83a724bf9ee5256cf3c71058.jpg?v=1774354094",
+      "product_type": "Home",
+      "handle": "tablecloth-with-tropical-print-140x220-cm-3071895",
+      "url": "https://flyingtiger.com/products/tablecloth-with-tropical-print-140x220-cm-3071895",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03"
+        ],
+        "occasion": [
+          "O03"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P022",
+      "title": "Wooden play fruits",
+      "description": "These wooden play fruits offer a simple and playful way to explore imaginative kitchen and market scenes during everyday play. The set includes colourful fruit pieces designed for pretend cooking, ser",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/0b28f0f2df933a6bb610d4a060ba4029.jpg?v=1773771375",
+      "product_type": "Toy",
+      "handle": "wooden-play-fruits-3071132",
+      "url": "https://flyingtiger.com/products/wooden-play-fruits-3071132",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P023",
+      "title": "Ceramic bird tealight holder with striped base",
+      "description": "A small detail like this ceramic bird tealight holder with striped base can bring a soft, warm glow into your space. Made of ceramics, it features a colourful bird design perched on a striped base, cr",
+      "price_eur": 4.5,
+      "price_thb": 171,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Ceramic-bird-tealight-holder-with-striped-base.webp?v=1777540195",
+      "product_type": "Home",
+      "handle": "ceramic-bird-tealight-holder-with-striped-base-3072186",
+      "url": "https://flyingtiger.com/products/ceramic-bird-tealight-holder-with-striped-base-3072186",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R01",
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P024",
+      "title": "Bath buddy - Cat mermaid",
+      "description": "This bath buddy as a cat mermaid is a cuddly friend that makes bath time imaginative and fun. Made of polyester with a soft towelling material, it measures 6 x 13 x 9 cm and features a sweet multi-col",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/4880551db87aa95f45fe8ea86cd89efc.jpg?v=1773771162",
+      "product_type": "Toy",
+      "handle": "bath-buddy-cat-mermaid-3071276",
+      "url": "https://flyingtiger.com/products/bath-buddy-cat-mermaid-3071276",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R03"
+        ],
+        "occasion": [
+          "O01"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01"
+        ]
+      }
+    },
+    {
+      "id": "P025",
+      "title": "Handheld fan with 3 settings - Yellow",
+      "description": "This handheld fan with 3 settings in yellow is a compact and efficient gadget perfect for staying cool anywhere. Made of plastic and measuring 15 x 6 x 3 cm, it features three adjustable speed setting",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f387b0ed7185fe93a1ec4d4c340a5370.jpg?v=1773771555",
+      "product_type": "Gadget",
+      "handle": "handheld-fan-with-3-settings-yellow-3071641",
+      "url": "https://flyingtiger.com/products/handheld-fan-with-3-settings-yellow-3071641",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P026",
+      "title": "Handheld fan with strap - Purple and pink",
+      "description": "This handheld fan with a strap in purple and pink is a stylish and practical gadget for keeping cool on the go. Made of plastic and measuring 4.0 x 15.5 x 7.5 cm, it features a compact yet powerful de",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/b4f33a4e55bab1f94fa51f933b94f855.jpg?v=1775821224",
+      "product_type": "Gadget",
+      "handle": "handheld-fan-with-strap-purple-and-pink-3071851",
+      "url": "https://flyingtiger.com/products/handheld-fan-with-strap-purple-and-pink-3071851",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P027",
+      "title": "Mini game - Car racing",
+      "description": "This mini game of car racing brings a lively tabletop challenge where players guide the tiny cars along the track using both hands. The aim is to move the controls carefully to steer the cars through ",
+      "price_eur": 4.5,
+      "price_thb": 171,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/e010edd264bf3fe8e2ac95b101e753b5.jpg?v=1773771594",
+      "product_type": "Game",
+      "handle": "mini-game-car-racing-3071315",
+      "url": "https://flyingtiger.com/products/mini-game-car-racing-3071315",
+      "tags": {
+        "gender": [
+          "G01",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02"
+        ],
+        "relationship": [
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P028",
+      "title": "Handheld fan with strap - Beige and silver",
+      "description": "This handheld fan with a strap in beige and silver is a sleek and modern gadget designed for effortless cooling. Made of plastic and measuring 9.1 x 6.2 x 5.6 cm, it features a stylish two-tone design",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/c1d2f325c548d8b34097799196ba1acf.jpg?v=1774441522",
+      "product_type": "Gadget",
+      "handle": "handheld-fan-with-strap-beige-and-silver-3072001",
+      "url": "https://flyingtiger.com/products/handheld-fan-with-strap-beige-and-silver-3072001",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R04",
+          "R05"
+        ],
+        "occasion": [
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P029",
+      "title": "Designer Collection - Wood tasting spoon - 30 cm",
+      "description": "This wood tasting spoon from the designer collection is a must-have for any home cook who enjoys both style and practicality in the kitchen. Made of wood and measuring 8.0 x 1 x 30.2 cm, it is ideal f",
+      "price_eur": 3.0,
+      "price_thb": 114,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/9dd90430-79f3-4602-8622-4b342d65d880.webp?v=1776163154",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-wood-tasting-spoon-30-cm-3070518",
+      "url": "https://flyingtiger.com/products/designer-collection-wood-tasting-spoon-30-cm-3070518",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R05"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P030",
+      "title": "Ballpoint pens with hand signs - 4 pcs",
+      "description": "These ballpoint pens with hand signs bring a playful feel to everyday writing while staying practical for regular use. They are ideal for notes, lists, and quick messages at a desk or on the go. The m",
+      "price_eur": 2.5,
+      "price_thb": 95,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/846e7cb779c389590176326044aef7dc.jpg?v=1773771051",
+      "product_type": "Office",
+      "handle": "ballpoint-pens-with-hand-signs-4-pcs-3070679",
+      "url": "https://flyingtiger.com/products/ballpoint-pens-with-hand-signs-4-pcs-3070679",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P031",
+      "title": "Bathroom golf",
+      "description": "Turn bathroom breaks into tee time with this bathroom golf set, a playful gadget that brings a bit of fun to your daily routine. The multi-coloured kit includes everything you need to enjoy a mini rou",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-gadget-default-title-bathroom-golf-66573459259740.jpg?v=1767711962",
+      "product_type": "Gadget",
+      "handle": "bathroom-golf-3066912",
+      "url": "https://flyingtiger.com/products/bathroom-golf-3066912",
+      "tags": {
+        "gender": [
+          "G01",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P032",
+      "title": "Chess in a book",
+      "description": "This chess in a book set combines classic gameplay with clever design. Made of wood and measuring 4.2 x 21.1 x 16.0 cm, it is neatly stored inside a book-shaped box that opens to reveal a full chessbo",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/71bb76017df4d8d420eb3b6016ea059a.jpg?v=1770181501",
+      "product_type": "Game",
+      "handle": "chess-in-a-book-3069700",
+      "url": "https://flyingtiger.com/products/chess-in-a-book-3069700",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P033",
+      "title": "Dominoes in a book",
+      "description": "This dominoes in a book set offers a fun twist on a timeless game, presented in a colourful, book-shaped box that makes it easy to store or display. Made of wood and measuring 4,2 x 21,1 x 16 cm, it i",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/7169fd1458a91b7ae891c981576255b9.jpg?v=1770181544",
+      "product_type": "Game",
+      "handle": "dominoes-in-a-book-3069703",
+      "url": "https://flyingtiger.com/products/dominoes-in-a-book-3069703",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P034",
+      "title": "Four in a row in a book",
+      "description": "This four in a row in a book set gives a playful update to a much-loved classic, presented in a colourful, book-shaped box that is both decorative and easy to store. Made of paper and measuring 4,2 x ",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/c158467d9e87797900cecaccf42feaf5.jpg?v=1770181570",
+      "product_type": "Game",
+      "handle": "four-in-a-row-in-a-book-3069702",
+      "url": "https://flyingtiger.com/products/four-in-a-row-in-a-book-3069702",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P035",
+      "title": "Manicure and pedicure set in purple trolley - 6 pcs",
+      "description": "Keep your nails perfectly cared for with this manicure and pedicure set in a purple trolley, designed for easy grooming at home or on the go. Made of metal and measuring 10.3 x 3.7 x 1.3 cm, the six-p",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/flying-tiger-copenhagen-personal-care-default-title-manicure-and-pedicure-set-in-suitcase-6-pcs-65324967330140.jpg?v=1767711680",
+      "product_type": "Personal care",
+      "handle": "manicure-and-pedicure-set-in-purple-trolley-6-pcs-3064432",
+      "url": "https://flyingtiger.com/products/manicure-and-pedicure-set-in-purple-trolley-6-pcs-3064432",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P036",
+      "title": "Bath buddy - Pirate mouse",
+      "description": "This bath buddy as a pirate mouse is a cuddly friend that makes bath time extra fun. Made of polyester with a soft towelling material, it measures 5 x 13 x 11 cm and is designed in a playful multi-col",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/e34aba50034c7bafcb7dcdf704263ad8.jpg?v=1773771178",
+      "product_type": "Toy",
+      "handle": "bath-buddy-pirate-mouse-3071275",
+      "url": "https://flyingtiger.com/products/bath-buddy-pirate-mouse-3071275",
+      "tags": {
+        "gender": [
+          "G01",
+          "G03"
+        ],
+        "age": [
+          "A01"
+        ],
+        "relationship": [
+          "R03"
+        ],
+        "occasion": [
+          "O01"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P037",
+      "title": "Glowing drawing board",
+      "description": "Bring a creative glow to your space with this glowing drawing board, designed for sketching, notes, or playful designs that stand out with light. Made of plastic and finished in white, it measures 10,",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/d3702c151fbdd8ccac620e064712a436.jpg?v=1773927245",
+      "product_type": "Gadget",
+      "handle": "glowing-drawing-board-3062179",
+      "url": "https://flyingtiger.com/products/glowing-drawing-board-3062179",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P038",
+      "title": "Pink head massager",
+      "description": "This pink head massager is a simple yet delightful gadget designed to bring a soothing touch to your day. Made of metal and measuring 8.5 x 22.5 cm, it features twelve flexible silver arms tipped with",
+      "price_eur": 3.0,
+      "price_thb": 114,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/f40ecfa8f5946a7edd332240c07481df.jpg?v=1774277863",
+      "product_type": "Gadget",
+      "handle": "pink-head-massager-3071653",
+      "url": "https://flyingtiger.com/products/pink-head-massager-3071653",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R01",
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P039",
+      "title": "Mini watercolours in tin box",
+      "description": "Add colour to your creative moments with these mini watercolours in a tin box, designed for painting wherever inspiration strikes. Made of metal and finished in a multi-coloured design, it measures 9.",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/2f2aed8ca8289f33634d00e284aebb6f.jpg?v=1775568616",
+      "product_type": "Hobby",
+      "handle": "mini-watercolours-in-tin-box-3071087",
+      "url": "https://flyingtiger.com/products/mini-watercolours-in-tin-box-3071087",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P040",
+      "title": "Cherry cushion - 26 x 26 cm",
+      "description": "Adding a playful decorative touch to a room can instantly brighten the atmosphere, and this cherry cushion brings a soft and cheerful detail to sofas, beds, or cosy corners. Made of polyester and shap",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Adjusting-cushion-photo-crop.webp?v=1777539182",
+      "product_type": "Home",
+      "handle": "cherry-cushion-26-x-26-cm-3071529",
+      "url": "https://flyingtiger.com/products/cherry-cushion-26-x-26-cm-3071529",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O03"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01"
+        ]
+      }
+    },
+    {
+      "id": "P041",
+      "title": "Ceramic house vase - 20 cm",
+      "description": "Decorative pieces can bring a playful and cosy detail to interior spaces, and this ceramic house vase adds both decoration and function to the room. Made of ceramic, the design is styled like a small ",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Decorative-blue-ceramic-house-11-cm.webp?v=1777892173",
+      "product_type": "Home",
+      "handle": "ceramic-house-vase-20-cm-3072528",
+      "url": "https://flyingtiger.com/products/ceramic-house-vase-20-cm-3072528",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P042",
+      "title": "Mug with hand-painted chequered design and saucer - 200 ml",
+      "description": "A warm drink feels even more enjoyable when served in a cup with a soft decorative touch like this mug with a hand painted chequered design and a matching saucer. Made of ceramic, the cup features a g",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Mug-with-hand-painted-chequered-design-and-saucer-200-ml.webp?v=1777539193",
+      "product_type": "Kitchen",
+      "handle": "mug-with-hand-painted-chequered-design-and-saucer-200-ml-3072211",
+      "url": "https://flyingtiger.com/products/mug-with-hand-painted-chequered-design-and-saucer-200-ml-3072211",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04",
+          "R05"
+        ],
+        "occasion": [
+          "O03",
+          "O04",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P043",
+      "title": "Wine stopper with chilli decoration",
+      "description": "Adding a playful detail to your bottle, this wine stopper with a chilli decoration keeps your drink fresh while bringing a bit of personality to your table. Made of metal, it features a bold red chill",
+      "price_eur": 4.5,
+      "price_thb": 171,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/7a4e34fb313ec23e2024e00dc6157439.jpg?v=1774354138",
+      "product_type": "Kitchen",
+      "handle": "wine-stopper-with-chilli-decoration-3071801",
+      "url": "https://flyingtiger.com/products/wine-stopper-with-chilli-decoration-3071801",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R04",
+          "R05"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03"
+        ]
+      }
+    },
+    {
+      "id": "P044",
+      "title": "Tumbler with lid and straw - Jungle print - 600 ml",
+      "description": "Enjoying cold drinks on the go feels more fun with a colourful tumbler that stands out. This tumbler with a lid and straw in a jungle print features a lively multi coloured design filled with tropical",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/aed7091b8f00402fe88de687fa487c37.jpg?v=1774354209",
+      "product_type": "Kitchen",
+      "handle": "tumbler-with-lid-and-straw-jungle-print-600-ml-3071996",
+      "url": "https://flyingtiger.com/products/tumbler-with-lid-and-straw-jungle-print-600-ml-3071996",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R02",
+          "R05"
+        ],
+        "occasion": [
+          "O01",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P045",
+      "title": "LED pillar candle with flower print - 10 cm",
+      "description": "This LED pillar candle with flower print brings a soft, glowing warmth to your home without the worry of an open flame. Made of wax, it features a delicate multi-coloured floral design that adds a tou",
+      "price_eur": 4.5,
+      "price_thb": 171,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/44496cc93f61506d3f5c29c8495e37d9.jpg?v=1769058178",
+      "product_type": "Home",
+      "handle": "led-pillar-candle-with-flower-print-10-cm-3069322",
+      "url": "https://flyingtiger.com/products/led-pillar-candle-with-flower-print-10-cm-3069322",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R01",
+          "R03"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P046",
+      "title": "Pink travel set in box",
+      "description": "Keep your skincare routine perfectly organised wherever you go with this stylish pink travel set. Made of plastic and measuring 13.2 x 10.2 x 4.5 cm, it includes a selection of compact bottles and con",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/334b26395a7e1acb3e181f08bf3f153a.jpg?v=1773771448",
+      "product_type": "Leisure",
+      "handle": "pink-travel-set-in-box-3070968",
+      "url": "https://flyingtiger.com/products/pink-travel-set-in-box-3070968",
+      "tags": {
+        "gender": [
+          "G02"
+        ],
+        "age": [
+          "A02",
+          "A03"
+        ],
+        "relationship": [
+          "R01",
+          "R02"
+        ],
+        "occasion": [
+          "O01",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P047",
+      "title": "Lawn game - Wooden stacking tower",
+      "description": "Bring playful competition to outdoor gatherings with a lawn game of stacking tower, a classic balancing game that turns simple moments into shared entertainment. This multi-coloured stacking tower is ",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/a729f820a04e7e0164beef6209f22aaf.jpg?v=1773771352",
+      "product_type": "Game",
+      "handle": "lawn-game-wooden-stacking-tower-3071231",
+      "url": "https://flyingtiger.com/products/lawn-game-wooden-stacking-tower-3071231",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A02",
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O01",
+          "O02"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S03",
+          "S04"
+        ]
+      }
+    },
+    {
+      "id": "P048",
+      "title": "Wine glass with blue embossed flowers - 350 ml",
+      "description": "A relaxed drink often feels a little more special when served in a glass with thoughtful decorative details. This wine glass features a gently textured surface with small blue embossed flowers that cr",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Wine-glass-with-blue-embossed-flowers-350-ml.webp?v=1777539192",
+      "product_type": "Kitchen",
+      "handle": "wine-glass-with-blue-embossed-flowers-350-ml-3071949",
+      "url": "https://flyingtiger.com/products/wine-glass-with-blue-embossed-flowers-350-ml-3071949",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R01",
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O01",
+          "O03",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P049",
+      "title": "Designer Collection - Pink salt and pepper mill - 19 cm",
+      "description": "This salt and pepper mill brings both function and style to your dining table. Made of wood and measuring 5.3 x 18.9 cm, it features a soft pink finish that adds a gentle pop of colour to your kitchen",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/027df32b3d83f7d894c5e347c6c1c8ed.jpg?v=1776163154",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-pink-salt-and-pepper-mill-19-cm-3069867",
+      "url": "https://flyingtiger.com/products/designer-collection-pink-salt-and-pepper-mill-19-cm-3069867",
+      "tags": {
+        "gender": [
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R03",
+          "R04"
+        ],
+        "occasion": [
+          "O03",
+          "O04"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S02"
+        ]
+      }
+    },
+    {
+      "id": "P050",
+      "title": "Decorative yellow ceramic house - 13 cm",
+      "description": "Decorative objects can bring a cosy and playful feeling to shelves, windowsills, or side tables, and this decorative yellow ceramic house adds a gentle touch of colour to home décor. Made of ceramic, ",
+      "price_eur": 5.0,
+      "price_thb": 190,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/Decorative-yellow-ceramic-house-13-cm.webp?v=1777540195",
+      "product_type": "Home",
+      "handle": "decorative-blue-ceramic-house-13-cm-3072091",
+      "url": "https://flyingtiger.com/products/decorative-blue-ceramic-house-13-cm-3072091",
+      "tags": {
+        "gender": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "age": [
+          "A03",
+          "A04"
+        ],
+        "relationship": [
+          "R02",
+          "R03"
+        ],
+        "occasion": [
+          "O03",
+          "O05"
+        ],
+        "budget": [
+          "B01"
+        ],
+        "style": [
+          "S01",
+          "S03"
         ]
       }
     }

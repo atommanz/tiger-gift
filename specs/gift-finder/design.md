@@ -65,13 +65,13 @@ const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
 - บันทึกคำตอบใน `formData`
 - เมื่อครบ 6 ข้อ → `setView('loading')`
 
-**Questions:**
-1. เพศ: ผู้ชาย, ผู้หญิง, ยูนิเซ็กซ์
-2. อายุ: เด็ก, วัยรุ่น, ผู้ใหญ่, ผู้สูงอายุ
-3. ความสัมพันธ์: แฟน, เพื่อน, ครอบครัว, เพื่อนร่วมงาน
-4. โอกาส: วันเกิด, วันวาเลนไทน์, ปีใหม่, ขอบคุณ
-5. งบประมาณ: <200, 200-500, 500-1000, >1000 บาท
-6. สไตล์: น่ารัก, แปลก, มินิมอล, สนุกสนาน
+**Questions (matching mock.json IDs):**
+1. เพศ: ชาย (G01), หญิง (G02), ไม่ระบุ (G03)
+2. อายุ: 0-12 ปี (A01), 13-22 ปี (A02), 23-45 ปี (A03), 46-99 ปี (A04)
+3. ความสัมพันธ์: แฟน (R01), เพื่อน (R02), พ่อแม่ (R03), ผู้ใหญ่ (R04), ญาติ (R05)
+4. โอกาส: วันเกิด (O01), เทศกาล (O02), ขึ้นบ้านใหม่ (O03), แสดงความยินดี (O04), ขอบคุณ/ขอโทษ (O05)
+5. งบประมาณ: ต่ำกว่า 300 บาท (B01), 300-500 บาท (B02), 500-1,000 บาท (B03), 1,000 บาทขึ้นไป (B04)
+6. สไตล์: น่ารัก (S01), มินิมอล (S02), สนุกสนาน (S03), หรูหรา (S04), วินเทจ (S05), เทคโนโลยี/ทันสมัย (S06), โรแมนติก (S07), สร้างสรรค์/DIY (S08), แฟนตาซี (S09)
 
 ### 3. LoadingView Sub-Component
 
@@ -123,44 +123,49 @@ const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
 
 ```typescript
 interface Product {
-  id: string
-  name: string // ภาษาไทย
-  price: number // THB
-  image: string // URL or /images/product-xx.jpg
+  id: string // "P001", "P002", etc.
+  title: string // English name from Flying Tiger
+  description?: string // Optional product description
+  price_eur?: number // Optional EUR price
+  price_thb: number // THB price (main price field)
+  image: string // Full CDN URL
+  product_type?: string // "Kitchen", "Home", etc.
+  handle?: string // Shopify handle
+  url?: string // Product page URL
   tags: {
-    gender: 'male' | 'female' | 'unisex'
-    age: 'child' | 'teen' | 'adult' | 'senior'
-    relationship: 'partner' | 'friend' | 'family' | 'colleague'
-    occasion: 'birthday' | 'valentine' | 'newyear' | 'thankyou'
-    budget: '<200' | '200-500' | '500-1000' | '>1000'
-    style: 'cute' | 'quirky' | 'minimal' | 'fun'
+    gender: string[]  // ["G01", "G02", "G03"]
+    age: string[]  // ["A01", "A02", "A03", "A04"]
+    relationship: string[]  // ["R01", "R02", "R03", "R04", "R05"]
+    occasion: string[]  // ["O01", "O02", "O03", "O04", "O05"]
+    budget: string[]  // ["B01", "B02", "B03", "B04"]
+    style: string[]  // ["S01" ... "S09"]
   }
 }
 ```
 
 **Validation Rules:**
-- `id`: Required, unique string
-- `name`: Required, Thai text, 10-100 characters
-- `price`: Required, positive number
-- `image`: Required, valid URL or relative path
-- `tags`: All fields required, must match enum values
+- `id`: Required, unique string (P001-P999)
+- `title`: Required, English text from Flying Tiger
+- `price_thb`: Required, positive number (THB)
+- `image`: Required, valid CDN URL
+- `tags`: All fields required, arrays of ID strings matching mock.json
 
 ### Form Data Model
 
 ```typescript
 interface FormData {
-  gender: 'male' | 'female' | 'unisex' | ''
-  age: 'child' | 'teen' | 'adult' | 'senior' | ''
-  relationship: 'partner' | 'friend' | 'family' | 'colleague' | ''
-  occasion: 'birthday' | 'valentine' | 'newyear' | 'thankyou' | ''
-  budget: '<200' | '200-500' | '500-1000' | '>1000' | ''
-  style: 'cute' | 'quirky' | 'minimal' | 'fun' | ''
+  gender: string // "G01" | "G02" | "G03" | ""
+  age: string // "A01" | "A02" | "A03" | "A04" | ""
+  relationship: string // "R01" | "R02" | "R03" | "R04" | "R05" | ""
+  occasion: string // "O01" | "O02" | "O03" | "O04" | "O05" | ""
+  budget: string // "B01" | "B02" | "B03" | "B04" | ""
+  style: string // "S01" ... "S09" | ""
 }
 ```
 
 **Validation Rules:**
 - All fields initially empty string (`''`)
-- Each field required before moving to next step
+- Each field stores ID from mock.json (e.g., "G01", "A03")
 - Form complete when all 6 fields have non-empty values
 
 ### Cart Item Model
@@ -183,23 +188,26 @@ interface CartItem {
 
 ```typescript
 function filterProducts(products: Product[], formData: FormData): Product[] {
-  // Filters products where ALL tags match formData
-  // If no exact matches, returns products with most matching tags (>= 3)
+  // Filters products where tags arrays contain formData IDs
+  // Scoring: +1 for each matching tag category
+  // Returns products sorted by match score (highest first)
   // Minimum return: 5 products (or all if < 5 available)
 }
 ```
 
 **Logic:**
-1. Score each product: +1 for each matching tag
-2. Sort by score descending
-3. If any product has score === 6 (perfect match), return those
-4. Else return products with score >= 3, minimum 5 items
+1. For each product, check if formData ID exists in corresponding tag array:
+   - `product.tags.gender.includes(formData.gender)` → +1 point
+   - `product.tags.age.includes(formData.age)` → +1 point
+   - Same for relationship, occasion, budget, style
+2. Sort by score descending (max score = 6)
+3. Return top matches, minimum 5 products
 
 ### calculateTotal
 
 ```typescript
 function calculateTotal(cart: CartItem[]): number {
-  return cart.reduce((sum, item) => sum + (item.product.price * item.quantity), 0)
+  return cart.reduce((sum, item) => sum + (item.product.price_thb * item.quantity), 0)
 }
 ```
 
@@ -240,29 +248,36 @@ function updateQuantity(productId: string, delta: number, cart: CartItem[], setC
 ### products.json Structure
 
 ```json
-[
-  {
-    "id": "ftc-001",
-    "name": "ตุ๊กตายูนิคอร์นสีพาสเทล",
-    "price": 299,
-    "image": "/images/unicorn-plush.jpg",
-    "tags": {
-      "gender": "female",
-      "age": "teen",
-      "relationship": "friend",
-      "occasion": "birthday",
-      "budget": "200-500",
-      "style": "cute"
+{
+  "products": [
+    {
+      "id": "P001",
+      "title": "Designer Collection - Pink mug with oval handle - 313 ml",
+      "description": "This pink mug with an oval handle adds elegance...",
+      "price_eur": 4.0,
+      "price_thb": 152,
+      "image": "https://cdn.shopify.com/s/files/1/0526/7144/7238/files/...",
+      "product_type": "Kitchen",
+      "handle": "designer-collection-pink-mug-...",
+      "url": "https://flyingtiger.com/products/...",
+      "tags": {
+        "gender": ["G02"],
+        "age": ["A03", "A04"],
+        "relationship": ["R02", "R03", "R05"],
+        "occasion": ["O01", "O03", "O05"],
+        "budget": ["B01"],
+        "style": ["S01", "S02"]
+      }
     }
-  },
-  ...
-]
+  ]
+}
 ```
 
 **Constraints:**
-- Array length: 20-30 items
-- All products must have complete tag set
-- Images can be placeholder URLs (e.g., `https://placehold.co/400x400/pink/white?text=Product+1`)
+- Root object has `products` array
+- Array length: 20-30+ items from Flying Tiger Copenhagen
+- All products must have complete tag arrays
+- Tags use ID format matching mock.json
 
 ## Error Handling
 
