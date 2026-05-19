@@ -11,11 +11,15 @@ export default function CelebrationPage() {
   const { cart, calculateTotal } = useCart()
   const [orderNumber, setOrderNumber] = useState('')
   const [showContent, setShowContent] = useState(false)
+  const [windowHeight, setWindowHeight] = useState(1000)
 
   useEffect(() => {
     // Generate random order number
     const randomOrder = `TG-${Math.floor(10000 + Math.random() * 90000)}`
     setOrderNumber(randomOrder)
+
+    // Set actual window height
+    setWindowHeight(window.innerHeight)
 
     // Fade in content after confetti starts
     setTimeout(() => setShowContent(true), 300)
@@ -37,7 +41,7 @@ export default function CelebrationPage() {
             key={i}
             initial={{ y: -20, opacity: 0, rotate: 0 }}
             animate={{
-              y: window.innerHeight + 20,
+              y: windowHeight + 20,
               opacity: [0, 1, 1, 0.3],
               rotate: 360 * (Math.random() > 0.5 ? 1 : -1)
             }}

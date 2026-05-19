@@ -5,21 +5,22 @@ import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowLeft, ShoppingCart, Star, Check } from 'lucide-react'
 import { useCart, Product } from '../context/CartContext'
+import { useFilteredProducts } from '../hooks/useFilteredProducts'
 
 export default function FeedPage() {
   const router = useRouter()
   const { cart, addToCart, getTotalItems, isInCart } = useCart()
-  const [products, setProducts] = useState<Product[]>([])
+  const [allProducts, setAllProducts] = useState<Product[]>([])
   const [addedProducts, setAddedProducts] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
 
-  // Load products from JSON
+  // Load all products from JSON
   useEffect(() => {
     const loadProducts = async () => {
       try {
         const response = await fetch('/mockdata/v1.json')
         const data = await response.json()
-        setProducts(data.products)
+        setAllProducts(data.products)
       } catch (error) {
         console.error('Failed to load products:', error)
       } finally {
@@ -28,6 +29,9 @@ export default function FeedPage() {
     }
     loadProducts()
   }, [])
+
+  // Get filtered products based on user's quiz answers
+  const { products, count } = useFilteredProducts(allProducts)
 
   const handleAddToCart = (product: Product) => {
     addToCart(product)
@@ -54,6 +58,32 @@ export default function FeedPage() {
     )
   }
 
+  // Show empty state if no products match the filter
+  if (products.length === 0) {
+    return (
+      <div className="h-screen flex flex-col items-center justify-center bg-white px-6">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", duration: 0.5 }}
+        >
+          <Star className="w-16 h-16 text-yellow-400 fill-yellow-400 mb-4" />
+        </motion.div>
+        <h2 className="text-xl font-bold text-black mb-2">ไม่พบสินค้าที่เหมาะสม</h2>
+        <p className="text-gray-600 text-center mb-6">
+          ลองเปลี่ยนคำตอบในแบบสอบถามใหม่อีกครั้ง
+        </p>
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          onClick={() => router.push('/')}
+          className="px-6 py-3 bg-black text-white rounded-full font-bold"
+        >
+          กลับไปเริ่มต้นใหม่
+        </motion.button>
+      </div>
+    )
+  }
+
   return (
     <div className="relative h-screen overflow-hidden bg-white">
       {/* Fixed Header - Always visible */}
@@ -70,7 +100,7 @@ export default function FeedPage() {
         {/* Recommendation badge */}
         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-white rounded-full shadow-md pointer-events-auto">
           <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-          <span className="text-xs font-medium">แนะนำให้คุณ 1 / {products.length}</span>
+          <span className="text-xs font-medium">แนะนำให้คุณ {count} ชิ้น</span>
         </div>
 
         {/* Cart button */}

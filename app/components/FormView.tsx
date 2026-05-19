@@ -21,7 +21,11 @@ import {
   Banknote,
   Gem,
   Package,
-  Lightbulb
+  Lightbulb,
+  Clock,
+  Zap,
+  HeartIcon,
+  Palette
 } from 'lucide-react'
 import { FormData } from '@/app/types'
 import ProgressBar from './ProgressBar'
@@ -51,10 +55,10 @@ const questions = [
     title: 'อายุประมาณเท่าไหร่?',
     subtitle: 'ช่วงวัยของผู้รับ',
     options: [
-      { value: 'A01', Icon: Baby, label: 'เด็ก (ต่ำกว่า 12)', color: '#FFD966' },
-      { value: 'A02', Icon: GraduationCap, label: 'วัยรุ่น (13-22)', color: '#FF69B4' },
-      { value: 'A03', Icon: Briefcase, label: 'วัยทำงาน (23-40)', color: '#C5E86C' },
-      { value: 'A04', Icon: HeartHandshake, label: 'ผู้ใหญ่ (40+)', color: '#B19CD9' }
+      { value: 'A01', Icon: Baby, label: '0-12 ปี', color: '#FFD966' },
+      { value: 'A02', Icon: GraduationCap, label: '13-22 ปี', color: '#FF69B4' },
+      { value: 'A03', Icon: Briefcase, label: '23-45 ปี', color: '#C5E86C' },
+      { value: 'A04', Icon: HeartHandshake, label: '46-99 ปี', color: '#B19CD9' }
     ]
   },
   {
@@ -62,11 +66,11 @@ const questions = [
     title: 'คุณรู้จักกันยังไง?',
     subtitle: 'ความสัมพันธ์กับผู้รับ',
     options: [
-      { value: 'R01', Icon: Heart, label: 'แฟน / คนรัก', color: '#FF69B4' },
-      { value: 'R02', Icon: Smile, label: 'เพื่อนสนิท', color: '#FFD966' },
-      { value: 'R03', Icon: HomeIcon, label: 'พ่อแม่ / ครอบครัว', color: '#C5E86C' },
-      { value: 'R04', Icon: Handshake, label: 'เพื่อนร่วมงาน', color: '#87CEEB' },
-      { value: 'R05', Icon: Star, label: 'หัวหน้า / เจ้านาย', color: '#B19CD9' }
+      { value: 'R01', Icon: Heart, label: 'แฟน', color: '#FF69B4' },
+      { value: 'R02', Icon: Smile, label: 'เพื่อน', color: '#FFD966' },
+      { value: 'R03', Icon: HomeIcon, label: 'พ่อแม่', color: '#C5E86C' },
+      { value: 'R04', Icon: Handshake, label: 'ผู้ใหญ่', color: '#87CEEB' },
+      { value: 'R05', Icon: Star, label: 'ญาติ', color: '#B19CD9' }
     ]
   },
   {
@@ -75,10 +79,10 @@ const questions = [
     subtitle: 'เลือกโอกาสพิเศษ',
     options: [
       { value: 'O01', Icon: Cake, label: 'วันเกิด', color: '#FF69B4' },
-      { value: 'O02', Icon: PartyPopper, label: 'ปีใหม่', color: '#FFD966' },
+      { value: 'O02', Icon: PartyPopper, label: 'เทศกาล', color: '#FFD966' },
       { value: 'O03', Icon: HomeIcon, label: 'ขึ้นบ้านใหม่', color: '#C5E86C' },
       { value: 'O04', Icon: ThumbsUp, label: 'แสดงความยินดี', color: '#FFA07A' },
-      { value: 'O05', Icon: Gift, label: 'ขอบคุณ', color: '#B19CD9' }
+      { value: 'O05', Icon: Gift, label: 'ขอบคุณ / ขอโทษ', color: '#B19CD9' }
     ]
   },
   {
@@ -97,10 +101,15 @@ const questions = [
     title: 'สไตล์ไหนเข้าทาง?',
     subtitle: 'แนวที่ผู้รับน่าจะชอบ',
     options: [
-      { value: 'S01', Icon: Heart, label: 'น่ารัก น่าหยิก', color: '#FF69B4' },
-      { value: 'S02', Icon: Sparkles, label: 'มินิมอล เรียบหรู', color: '#E8E8E8' },
-      { value: 'S03', Icon: PartyPopper, label: 'สนุก สีสด', color: '#FFD966' },
-      { value: 'S04', Icon: Package, label: 'ใช้งานได้จริง', color: '#87CEEB' }
+      { value: 'S01', Icon: Heart, label: 'น่ารัก', color: '#FF69B4' },
+      { value: 'S02', Icon: Sparkles, label: 'มินิมอล', color: '#D3D3D3' },
+      { value: 'S03', Icon: PartyPopper, label: 'สนุกสนาน', color: '#FFD966' },
+      { value: 'S04', Icon: Gem, label: 'หรูหรา', color: '#B19CD9' },
+      { value: 'S05', Icon: Clock, label: 'วินเทจ', color: '#CD853F' },
+      { value: 'S06', Icon: Zap, label: 'เทคโนโลยี / ทันสมัย', color: '#87CEEB' },
+      { value: 'S07', Icon: HeartIcon, label: 'โรแมนติก', color: '#FFB6C1' },
+      { value: 'S08', Icon: Palette, label: 'สร้างสรรค์ / DIY', color: '#98D8C8' },
+      { value: 'S09', Icon: Star, label: 'แฟนตาซี', color: '#DDA0DD' }
     ]
   }
 ]
