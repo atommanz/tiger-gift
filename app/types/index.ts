@@ -1,12 +1,12 @@
 export type ViewState = 'home' | 'form' | 'loading' | 'feed' | 'cart' | 'celebration'
 
 export interface FormData {
-  gender: string
-  age: string
-  relationship: string
-  occasion: string
-  budget: string
-  style: string
+  gender: string[]
+  age: string[]
+  relationship: string[]
+  occasion: string[]
+  budget: string[]
+  style: string[]
 }
 
 export interface Product {

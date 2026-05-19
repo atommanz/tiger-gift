@@ -6,18 +6,12 @@ import { ViewState, FormData } from '@/app/types'
 import LandingPage from '@/app/components/LandingPage'
 import FormView from '@/app/components/FormView'
 import LoadingView from '@/app/components/LoadingView'
+import { useForm } from '@/app/context/FormContext'
 
 export default function Home() {
   const [view, setView] = useState<ViewState>('home')
   const [formStep, setFormStep] = useState<number>(1)
-  const [formData, setFormData] = useState<FormData>({
-    gender: '',
-    age: '',
-    relationship: '',
-    occasion: '',
-    budget: '',
-    style: ''
-  })
+  const { formData, updateFormField } = useForm()
 
   const handleStartForm = () => {
     setView('form')
@@ -25,14 +19,14 @@ export default function Home() {
   }
 
   const handleSelectOption = (field: keyof FormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
+    updateFormField(field, value)
   }
 
   const handleNextStep = () => {
     const fields: (keyof FormData)[] = ['gender', 'age', 'relationship', 'occasion', 'budget', 'style']
     const currentField = fields[formStep - 1]
 
-    if (!formData[currentField]) {
+    if (!formData[currentField] || formData[currentField].length === 0) {
       return // Don't proceed if no selection
     }
 

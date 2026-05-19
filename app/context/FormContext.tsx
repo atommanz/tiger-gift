@@ -13,12 +13,12 @@ const FormContext = createContext<FormContextType | undefined>(undefined)
 
 export function FormProvider({ children }: { children: ReactNode }) {
   const [formData, setFormData] = useState<FormData>({
-    gender: '',
-    age: '',
-    relationship: '',
-    occasion: '',
-    budget: '',
-    style: ''
+    gender: [],
+    age: [],
+    relationship: [],
+    occasion: [],
+    budget: [],
+    style: []
   })
 
   // Load form data from localStorage on mount
@@ -31,13 +31,16 @@ export function FormProvider({ children }: { children: ReactNode }) {
 
   // Save form data to localStorage whenever it changes
   useEffect(() => {
-    if (Object.values(formData).some(val => val !== '')) {
+    if (Object.values(formData).some(arr => arr.length > 0)) {
       localStorage.setItem('tiger-gift-form', JSON.stringify(formData))
     }
   }, [formData])
 
   const updateFormField = (field: keyof FormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
+    setFormData(prev => {
+      // Single selection: replace ค่าเดิมด้วยค่าใหม่ (เก็บเป็น array ที่มี 1 element)
+      return { ...prev, [field]: [value] }
+    })
   }
 
   return (

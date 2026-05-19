@@ -124,6 +124,7 @@ export default function FormView({
   const currentQuestion = questions[formStep - 1]
   const currentField = currentQuestion.field
   const isLastStep = formStep === 6
+  const hasSelection = formData[currentField] && formData[currentField].length > 0
 
   return (
     <motion.div
@@ -196,7 +197,7 @@ export default function FormView({
                     Icon={option.Icon}
                     label={option.label}
                     bgColor={option.color}
-                    isSelected={formData[currentField] === option.value}
+                    isSelected={formData[currentField]?.includes(option.value) || false}
                     onClick={() => onSelect(currentField, option.value)}
                     delay={0.1 + index * 0.05}
                   />
@@ -212,12 +213,12 @@ export default function FormView({
               className="flex-shrink-0 pt-4"
             >
               <motion.button
-                whileHover={formData[currentField] ? { scale: 1.02 } : {}}
-                whileTap={formData[currentField] ? { scale: 0.98 } : {}}
+                whileHover={hasSelection ? { scale: 1.02 } : {}}
+                whileTap={hasSelection ? { scale: 0.98 } : {}}
                 onClick={onNext}
-                disabled={!formData[currentField]}
+                disabled={!hasSelection}
                 className={`w-full text-white text-base font-bold py-3.5 px-6 rounded-full transition-all ${
-                  formData[currentField]
+                  hasSelection
                     ? 'bg-black hover:bg-gray-800 shadow-lg hover:shadow-xl'
                     : 'bg-gray-400 cursor-not-allowed'
                 }`}
@@ -226,7 +227,7 @@ export default function FormView({
                   {isLastStep ? 'หาของขวัญให้เลย!' : 'ถัดไป'}
                   {!isLastStep && (
                     <motion.span
-                      animate={{ x: formData[currentField] ? [0, 5, 0] : 0 }}
+                      animate={{ x: hasSelection ? [0, 5, 0] : 0 }}
                       transition={{ duration: 1, repeat: Infinity }}
                     >
                       →
