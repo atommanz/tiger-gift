@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import { ViewState, FormData } from '@/app/types'
+import { useForm } from '@/app/context/FormContext'
 import LandingPage from '@/app/components/LandingPage'
 import FormView from '@/app/components/FormView'
 import LoadingView from '@/app/components/LoadingView'
@@ -10,14 +11,7 @@ import LoadingView from '@/app/components/LoadingView'
 export default function Home() {
   const [view, setView] = useState<ViewState>('home')
   const [formStep, setFormStep] = useState<number>(1)
-  const [formData, setFormData] = useState<FormData>({
-    gender: '',
-    age: '',
-    relationship: '',
-    occasion: '',
-    budget: '',
-    style: ''
-  })
+  const { formData, updateFormField } = useForm()
 
   const handleStartForm = () => {
     setView('form')
@@ -25,7 +19,7 @@ export default function Home() {
   }
 
   const handleSelectOption = (field: keyof FormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
+    updateFormField(field, value)
   }
 
   const handleNextStep = () => {

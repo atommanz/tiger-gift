@@ -5,11 +5,14 @@ import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowLeft, ShoppingCart, Star, Check } from 'lucide-react'
 import { useCart, Product } from '../context/CartContext'
-import { useFilteredProducts } from '../hooks/useFilteredProducts'
+import { useForm } from '../context/FormContext'
+import { getRecommendedProducts } from '../utils/filterProducts'
+import DebugFilter from '../components/DebugFilter'
 
 export default function FeedPage() {
   const router = useRouter()
   const { cart, addToCart, getTotalItems, isInCart } = useCart()
+  const { formData } = useForm()
   const [allProducts, setAllProducts] = useState<Product[]>([])
   const [addedProducts, setAddedProducts] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
@@ -30,8 +33,16 @@ export default function FeedPage() {
     loadProducts()
   }, [])
 
-  // Get filtered products based on user's quiz answers
-  const { products, count } = useFilteredProducts(allProducts)
+  // Filter products directly
+  const products = getRecommendedProducts(allProducts, formData)
+  const count = products.length
+
+  // Debug
+  useEffect(() => {
+    console.log('🔍 FormData:', formData)
+    console.log('📦 All products:', allProducts.length)
+    console.log('📦 Filtered products:', products.length)
+  }, [formData, allProducts, products])
 
   const handleAddToCart = (product: Product) => {
     addToCart(product)
@@ -231,6 +242,9 @@ export default function FeedPage() {
           )
         })}
       </div>
+
+      {/* Debug component */}
+      <DebugFilter products={products} />
     </div>
   )
 }

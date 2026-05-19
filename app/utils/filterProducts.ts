@@ -53,7 +53,18 @@ export function scoreProduct(product: Product, formData: FormData): number {
   if (age && product.tags.age.includes(age)) score++
   if (relationship && product.tags.relationship.includes(relationship)) score++
   if (occasion && product.tags.occasion.includes(occasion)) score++
-  if (budget && product.tags.budget.includes(budget)) score++
+
+  // เช็ค budget จากราคาจริง ไม่ใช่ tags
+  if (budget) {
+    const budgetRange = getBudgetRange(budget)
+    if (budgetRange) {
+      const matchBudget = product.price_thb >= budgetRange.min && product.price_thb <= budgetRange.max
+      if (matchBudget) score++
+    } else if (product.tags.budget.includes(budget)) {
+      score++
+    }
+  }
+
   if (style && product.tags.style.includes(style)) score++
 
   return score
