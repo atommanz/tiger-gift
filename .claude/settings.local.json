@@ -11,6 +11,12 @@
     "commit": "",
     "pr": ""
   },
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node *)"
+    ]
+  },
   "enabledMcpjsonServers": [
     "playwright",
     "aws-knowledge-mcp-server"
