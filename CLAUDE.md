@@ -6,11 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **FTC Gift Finder** — An intelligent gift recommendation web app for Flying Tiger Copenhagen (Index Living Mall). This is a hackathon project (4-5 hours build time) designed to help customers find the perfect gift through a TikTok-style product discovery experience.
 
-**Target:** Mobile-first prototype demonstrating the complete user flow from gift selection to checkout celebration.
+**Goal:** Mobile-first prototype with complete user flow from gift selection to checkout celebration in under 3 minutes.
 
-## Important: Next.js Version
+**Primary Language:** Thai (for UI text, product names, and user-facing content)
 
-⚠️ **This project uses Next.js 16.2.6 with breaking changes from earlier versions.** 
+## Important: Next.js & React Versions
+
+⚠️ **This project uses Next.js 16.2.6 and React 19.2.4 with breaking changes from earlier versions.**
 
 Before writing any Next.js code, read the relevant documentation in `node_modules/next/dist/docs/` to understand API changes, deprecated features, and new conventions. Your training data may not reflect these breaking changes.
 
@@ -20,9 +22,10 @@ See `AGENTS.md` for the full agent rules regarding Next.js compatibility.
 
 - **Framework:** Next.js 16.2.6 (App Router)
 - **React:** 19.2.4
-- **TypeScript:** 5.x
-- **Styling:** Tailwind CSS 4.x (PostCSS plugin)
-- **Fonts:** Geist Sans & Geist Mono (via next/font/google)
+- **TypeScript:** 5.x (strict mode, bundler resolution)
+- **Styling:** Tailwind CSS 4.x with new `@theme inline` syntax
+- **Fonts:** Geist Sans & Geist Mono (next/font/google)
+- **ESLint:** v9 flat config format
 
 ## Development Commands
 
@@ -40,117 +43,65 @@ npm start
 npm run lint
 ```
 
-## Project Structure
+## Configuration Notes
 
-```
-app/
-  layout.tsx     # Root layout with Geist fonts
-  page.tsx       # Home page (currently "hello world")
-  globals.css    # Global Tailwind styles
-  favicon.ico    # Site favicon
-
-public/          # Static assets (SVG icons)
-```
-
-## Path Aliases
-
-TypeScript is configured with `@/*` path alias mapping to the root directory:
+**TypeScript:** Path alias `@/*` maps to root directory for cleaner imports:
 ```typescript
 import Component from "@/app/components/Component"
 ```
 
-## Key Configuration Files
+**Tailwind CSS 4.x:** Uses new inline theme syntax in `globals.css`:
+```css
+@theme inline {
+  --color-background: var(--background);
+  --font-sans: var(--font-geist-sans);
+}
+```
 
-- `next.config.ts` — Next.js configuration (TypeScript format)
-- `eslint.config.mjs` — ESLint v9 flat config with Next.js presets
-- `postcss.config.mjs` — PostCSS configuration for Tailwind
-- `tsconfig.json` — TypeScript config with strict mode, bundler resolution, and Next.js plugin
+**ESLint:** Configured with `defineConfig()` and `globalIgnores()` (v9 flat config format), includes Next.js TypeScript and Core Web Vitals presets.
 
-## Development Guidelines
+## Feature Requirements
 
-### What to Build
+Full requirements documented in `propmt.text`. Core features:
 
-Based on `propmt.text` (project requirements document), the core features are:
+### Must Build
 
-1. **Multi-step form** — 6-screen wizard collecting gift recipient data:
-   - Gender, age range, relationship, occasion, budget, style
-   - Progress bar and smooth transitions between steps
+1. **Multi-step form** (6 screens) — Gender, age, relationship, occasion, budget, style selection with progress bar
+2. **Loading screen** — 2-3 second animation
+3. **TikTok-style product feed** — Vertical snap-scroll, one product per screen, full-screen cards with "Add to Cart" button and cart badge counter
+4. **Shopping cart** — Quantity controls, total calculation, gift message text area, checkout button
+5. **Celebration screen** — Confetti/fireworks animation on checkout
 
-2. **Loading screen** — 2-3 second animation while "processing"
+### Must NOT Build
 
-3. **TikTok-style product feed** — Vertical snap-scroll showing one product at a time:
-   - Full-screen product cards with image, name, price
-   - "Add to Cart" button on each card
-   - Cart badge counter (top-right corner)
+No authentication, real payment gateway, backend/database (use mock JSON), AI/ML recommendations (simple filter logic only), responsive beyond mobile-first, search/filter UI, reviews, wishlist, or share features.
 
-4. **Shopping cart** — Product list with:
-   - Quantity controls (+/-)
-   - Total price calculation
-   - Gift message text area
-   - Checkout button
+### Mock Data Structure
 
-5. **Celebration screen** — Confetti/fireworks animation on checkout completion
-
-### What NOT to Build
-
-- Authentication/login system
-- Real payment gateway
-- Backend/database (use mock JSON data)
-- True AI/ML recommendations (simple filter logic is fine)
-- Responsive design beyond mobile-first
-- Search/filter UI, reviews, wishlist, share features
-
-### Mock Data
-
-Create a JSON file with 20-30 FTC products containing:
-- Product image URL or path
-- Name (in Thai)
+Create JSON file with 20-30 FTC products:
+- Product image URL/path
+- Name (Thai)
 - Price (THB)
-- Tags for filtering (gender, age, relationship, occasion, budget, style)
+- Tags: gender, age, relationship, occasion, budget, style
 
-Use placeholder images from `public/` or external sources if needed.
+Use placeholder images from `public/` or external sources.
 
-## Styling Notes
+## Styling Guidelines
 
-- Mobile-first design (primary target is mobile devices)
-- Use Tailwind utility classes
-- CSS variables for Geist fonts are defined in layout: `--font-geist-sans`, `--font-geist-mono`
-- Root HTML includes `antialiased` class for font smoothing
-
-## Git Workflow
-
-- **Main branch:** `main`
-- Currently on: `main`
-- Clean working tree (no uncommitted changes)
-
-## ESLint Configuration
-
-Uses Next.js ESLint presets with custom global ignores:
-- `.next/**`
-- `out/**`
-- `build/**`
-- `next-env.d.ts`
-
-Configured with ESLint v9 flat config format (`eslint.config.mjs`).
-
-## Performance Considerations
-
+- Mobile-first design (primary target)
+- Tailwind utility classes throughout
+- Geist font CSS variables: `--font-geist-sans`, `--font-geist-mono`
+- Root HTML has `antialiased` class
 - Use Next.js `<Image>` component for optimized images
-- Leverage React 19 server components where appropriate
-- Keep bundle size minimal for hackathon demo
+- Keep bundle size minimal
 
-## Demo Requirements
+## Architecture Notes
 
-For hackathon success:
-- ✅ Complete user flow works end-to-end
-- ✅ Smooth UX with no friction points (< 3 minutes to checkout)
-- ✅ Visually polished, aligned with FTC brand
-- ✅ Judges immediately understand the concept
+**App Router Structure:**
+- `app/layout.tsx` — Root layout with Geist fonts and metadata
+- `app/page.tsx` — Home page entry point
+- `app/globals.css` — Tailwind imports and theme configuration
 
----
-
-**Project Status:** Initial setup complete. Ready to build core features.
-
-**Timeline:** 4-5 hours total build time (hackathon constraint)
-
-**Primary Language:** Thai (for UI text, product names, and user-facing content)
+**React 19 Considerations:**
+- Leverage server components where appropriate
+- Client components only when needed for interactivity (form state, animations, cart state)
