@@ -1,0 +1,135 @@
+You are a senior UI/UX designer and brand identity specialist.
+Design a complete CI (Corporate Identity) system for "FTC Gift Finder" —
+a web app that helps users find the perfect gift from Flying Tiger Copenhagen
+in under 3 minutes.
+---
+BRAND ESSENCE
+-------------
+Tone: Quiet confidence. Like a smart friend who already knows what you need.
+Feel: Apple meets Muji — minimal, editorial, trustworthy.
+NOT: Playful e-commerce, flashy retail, startup-generic.
+---
+COLOR SYSTEM
+------------
+Strictly black and white with a 7-stop grayscale ramp.
+Primary Black: #0a0a0a
+Gray 800: #2a2a2a
+Gray 600: #5a5a5a
+Gray 400: #9a9a9a
+Gray 200: #e8e8e8
+Gray 100: #f5f5f5
+Primary White: #fafafa
+No color accent anywhere in the UI.
+The ONLY exception: confetti on the final celebration screen (free color).
+White space is the visual accent. Hierarchy is created through tone, not color.
+---
+TYPOGRAPHY
+----------
+Display / Headline:  DM Serif Display, weight 400, italic variant for subheads
+Body / UI:           Manrope, weight 300–500
+Data / Labels:       DM Mono, weight 400–500
+Rules:
+- All headlines use DM Serif Display — gives premium, editorial feel
+- All prices and step indicators use DM Mono (e.g., "฿450", "STEP 2 OF 6")
+- Body copy and UI labels use Manrope
+- Font sizes: Display 32–48px / Subhead 20–28px / Body 13–16px / Mono 9–12px
+- Font weight: 400 regular / 500 medium only — never 600 or 700
+- Letter spacing: +0.12em on uppercase labels, -0.01em on display
+---
+TONE OF VOICE
+-------------
+Language: Thai primary, English secondary (labels, data, categories)
+Voice: Direct. Warm. Minimal words, maximum clarity.
+DO:   "เลือกให้คนที่ใช่" / "Find the one." / "กำลังเลือกของขวัญให้คุณ..."
+DON'T: "🎁 Amazing deals await!!" / ใช้ emoji เกิน 1 ตัว / ภาษาขายของ
+Every line of copy should feel like a smart friend — not a sales banner.
+---
+UI COMPONENT RULES
+------------------
+Buttons:
+  Primary CTA → filled black, white text, border-radius: 100px (pill shape)
+  Secondary    → ghost/outline, black border, same pill shape
+  Tertiary     → text-only, underline, muted gray
+Option Chips (for gender, style, occasion):
+  Inactive → gray-100 background, gray-600 text, DM Mono font
+  Active   → black background, white text
+Step Indicator:
+  Inactive dot → 6px circle, gray-200
+  Active step  → 18px pill (elongated), black
+Product Card (TikTok Feed):
+  Background: #0a0a0a (dark mode only for this screen)
+  Product image: full bleed, centered
+  Name: DM Serif Display, white, 22px
+  Price: DM Mono, gray-400, 14px
+  CTA: pill button, white bg, black text
+Cart / Form Screens:
+  Background: #fafafa (light mode)
+  Clean, no decorative elements
+  Borders: 0.5px solid #e8e8e8 only
+---
+MOTION & ANIMATION
+------------------
+Timing:
+  Micro (hover, tap feedback): 150ms
+  Page transition:             350ms ease-out
+  Modal / bottom sheet:        400ms decelerate
+  Add to cart spring:          500ms spring (slight overshoot)
+  Celebration confetti:        600ms burst + 3s sustain
+Rules:
+  - No bounce on form step transitions — only linear or ease-out
+  - Product feed snap scroll: CSS scroll-snap, no momentum faking
+  - Loading screen: single pulsing glyph, not skeleton loaders
+  - Confetti is the ONLY moment of visual extravagance — earn it
+---
+LAYOUT PRINCIPLES
+-----------------
+Grid: 16px base unit, 24px gutter
+Mobile-first: 390px viewport target (iPhone 14 Pro)
+Safe zones: 20px horizontal padding, 48px bottom safe area
+Spacing rhythm: 8 / 16 / 24 / 40 / 64px — nothing in between
+No drop shadows. No gradients. No border-radius on single-sided borders.
+Cards: border-radius 12px (radius-lg). Buttons: border-radius 100px (pill).
+---
+SCREEN-BY-SCREEN DIRECTION
+---------------------------
+1. Form Steps (6 screens)
+   → White bg, single centered question per screen, large Serif headline
+   → Answer as pill chips below, progress indicator at top
+   → "ถัดไป →" primary button fixed at bottom
+2. Loading Screen
+   → Black bg, single animated circle glyph (FTC logo mark)
+   → Serif italic copy: "กำลังเลือกของขวัญให้คุณ..."
+   → 2–3 second duration, no skip button
+3. Product Feed (TikTok-style)
+   → Dark bg (#0a0a0a), full-bleed product image
+   → Product name in DM Serif Display (white), price in DM Mono
+   → Swipe up/down snap scroll, "Add to Cart" pill button bottom-center
+   → Cart icon top-right with black badge counter
+4. Cart Page
+   → White bg, minimal list view
+   → Product thumbnail + name + DM Mono price
+   → +/− quantity control (circle buttons, 28px)
+   → Textarea for greeting card (label: "เขียนการ์ดอวยพร")
+   → Total in DM Serif Display, large
+   → "Checkout" primary pill button
+5. Celebration Screen
+   → White bg → confetti burst (free color, 600ms)
+   → Serif headline: "ของขวัญพร้อมส่งแล้ว"
+   → Subhead italic: "They're going to love it."
+---
+DELIVERABLES EXPECTED
+---------------------
+- Color palette swatches with hex values
+- Typography scale with visual specimens
+- Button states (default / hover / active / disabled)
+- Option chip states (inactive / active)
+- Step progress indicator
+- Product card (dark variant)
+- Cart line item component
+- Loading screen mockup
+- Celebration screen mockup
+- Motion spec table (easing + duration per interaction)
+Style reference: Apple.com product pages, Muji web store, Loewe brand identity.
+Anti-reference: Shopee, Lazada, any gradient-heavy e-commerce UI. 
+
+ผมต้องการให้ prompt เพิ่มให้มี animation ที่สวยงาน เเละเปลี่ยน emoji เป็น icons
